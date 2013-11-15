@@ -31,12 +31,22 @@
 ##Meet the Instructors
 
 **Instructor:** Jenn de la Fuente
+
 - Email: designs@jrosebud.com
 - Website: http://jenndelafuente.com
+- Twitter: [@dabblingdesign](http://twitter.com/dabblingdesign)
+
+---
 
 **TAs**
-- Ethan Stiffelman
-- Ray Dipasupil
+
+Ethan Stiffelman
+
+Ray Dipasupil
+
+- Email: Raydipasupil@gmail.com
+- Website: http://stancetrader.com
+- Twitter: [@914rdd](http://twitter.com/914rdd)
 
 ---
 
@@ -50,6 +60,16 @@ Otherwise, use what you've always been using if you already have a text editor p
 
 ---
 
+##Schoology
+
+- We'll post files for class there.
+- You'll turn in homework to Schoology as zip files.
+- We'll post resources and links too.
+- Class will be recorded (barring any technical difficulties), and links to the slides can be found on Schoology.
+- You can also find the slides at http://jrosebud.github.io
+
+---
+
 
 ##What to Expect
 
@@ -57,44 +77,19 @@ Otherwise, use what you've always been using if you already have a text editor p
 
 ---
 
+##Objectives
 
-
-##Intro To Web Development
-
-
----
-
-##Front-End Web Development
-
-Client-Side
-
-*	HTML
-*	CSS
-*	JavaScript	
+- You'll learn how to read HTML and CSS.
+- You'll know enough about JavaScript and jQuery to at least interpret it. Maybe you can't write a JavaScript script from scratch, but you'll at least know what's going on and how to manipulate and existing scripts for your own purposes.
+- You'll be able to create a nice, multi-page website.
+- You'll learn the basic workflow when someone says to you "Hey, can you build a website for me?"
 
 ---
 
-##Back-End Web Development
+##What you **Won't** Learn
 
-Server-Side
-
-*	Ruby
-*	PHP
-*	Python
-*	PERL
-*	C++
-
----
-
-
-
-##HTML Tags
-
----
-
-
-![GeneralAssemb.ly](../../img/icons/code_along.png)
-##General Assembly Press Release
+- Dynamic coding! (That means you can't build a WordPress site or content management system!)
+- Back-end web development (PHP, Ruby, Python, C++, and similar languages)
 
 ---
 
@@ -120,6 +115,15 @@ The Doctype tells you if the page is HTML5 ready.
 image retrieved from http://www.onbile.com/info/wp-content/uploads/2013/09/Timeline-of-web-technologies-639x168.jpg on October 1, 2013.
 
 </aside>
+
+---
+
+##HTML Tags
+
+---
+
+![GeneralAssemb.ly](../../img/icons/code_along.png)
+##General Assembly Press Release
 
 ---
 
@@ -174,7 +178,6 @@ Unordered list 
 ##Content Tags
 
 Unordered list item 
-`
 	```<li>```First item```</li>```
     ```<li>```Next item```</li>```
 
@@ -183,8 +186,12 @@ Unordered list item 
 
 ##Content Tags
 
-links 
+Links 
  ```<a href="Link">```First item```</a>```
+ 
+ If you want a link to open in a new window or tab, you add ```target="_blank"```.
+ 
+ ```<a href="link" target="_blank">Item</a>```
 
 
 --
@@ -198,6 +205,6 @@ links 
 ## Homework
 
 *	Create a resume website
-*	Watch a video about the Internet
+*	Watch a video about the Internet at http://www.youtube.com/watch?v=7_LPdttKXPc
 
 ---
