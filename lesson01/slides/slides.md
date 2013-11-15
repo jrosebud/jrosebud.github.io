@@ -1,20 +1,29 @@
-![GeneralAssemb.ly](../../img/icons/FEWD_Logo.png)
+![GeneralAssemb.ly](../img/icons/FEWD_Logo.png)
 
 #FEWD - HTML BASICS 
 
-###Instructor Name
-
-Instructors current role.
+```
+<p>Hello world!</p>
+```
 
 ---
 
 
 ##Agenda
 
-*	Student Experience
+*   Introductions
+*	What to Expect in This Class
 *	Intro To Web Development
 *	HTML Tags
 *	Lab Time
+
+
+---
+
+
+##Introductions
+
+(../img/drnick.jpg)
 
 ---
 
