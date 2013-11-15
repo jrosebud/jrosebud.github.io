@@ -424,10 +424,6 @@ body {
 }
 ```
 
-It should look something like this:
-
-<p style="font-family: "Georgia", serif;">Hello world!</p>
-
 ---
 
 ##Web Safe Fonts
@@ -442,14 +438,16 @@ http://www.w3schools.com/cssref/css_websafe_fonts.asp
 ##CSS
 ###Review
 
-- With CSS, we can determine some basic looks for a website: type colors, font weights, font-family.
+- With CSS, we can determine some basic looks for a website: type colors, font weights, fonts.
 - CSS is best called as a separate file.
+- Color can be called in one of three ways: the name of the color, a hex code (like #000000), or RGB/RGBa. HSL doesn't really get used very often.
+- There are a few safe font families that can be declared for a website. These are often used as body text.
 
 
 ---
 
 
-![GeneralAssemb.ly](../../img/icons/Exercise_icon_md.png)
+![GeneralAssemb.ly](../img/icons/Exercise_icon_md.png)
 ##Lab Time
 *	Wendy G. Bites - Resume.
 
