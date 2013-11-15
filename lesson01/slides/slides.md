@@ -97,6 +97,15 @@ Otherwise, use what you've always been using if you already have a text editor p
 
 ---
 
+##HTML Tags
+
+---
+
+![GeneralAssemb.ly](../../img/icons/code_along.png)
+##General Assembly Press Release
+
+---
+
 
 ##HTML vs HTML5
 
@@ -115,15 +124,6 @@ The Doctype tells you if the page is HTML5 ready.
 image retrieved from http://www.onbile.com/info/wp-content/uploads/2013/09/Timeline-of-web-technologies-639x168.jpg on October 1, 2013.
 
 </aside>
-
----
-
-##HTML Tags
-
----
-
-![GeneralAssemb.ly](../../img/icons/code_along.png)
-##General Assembly Press Release
 
 ---
 
