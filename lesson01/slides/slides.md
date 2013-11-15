@@ -185,11 +185,17 @@ Unordered list
 
 ```<ul>``` ```</ul>```
 
+In other words, a bulleted list. It looks like this:
+
+- List item
+- List item
+
 --
 
 ##Content Tags
 
-Unordered list item 
+Unordered list item
+
 	```<li>```First item```</li>```
     ```<li>```Next item```</li>```
 
@@ -198,7 +204,8 @@ Unordered list item 
 
 ##Content Tags
 
-Links 
+Links
+
  ```<a href="Link">```First item```</a>```
  
  If you want a link to open in a new window or tab, you add ```target="_blank"```.
