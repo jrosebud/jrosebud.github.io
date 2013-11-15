@@ -125,6 +125,7 @@ The Doctype tells you if the page is HTML5 ready.
 
 ```<!DOCTYPE html>```
 
+---
 
 ##HTML HISTORY
 
