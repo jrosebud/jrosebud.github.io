@@ -11,11 +11,12 @@
 
 ##Agenda
 
-*   Introductions
-*	What to Expect in This Class
-*	Intro To Web Development
-*	HTML Tags
-*	Lab Time
+- Introductions
+- Housekeeping
+- What to Expect in This Class
+- Intro To Web Development
+- HTML Tags
+- Lab Time
 
 
 ---
@@ -23,14 +24,36 @@
 
 ##Introductions
 
-(../img/drnick.jpg)
+<div align="center"><img src="img/drnick.jpg" width="500" /></div>
+
+---
+
+##Meet the Instructors
+
+**Instructor:** Jenn de la Fuente
+- Email: designs@jrosebud.com
+- Website: http://jenndelafuente.com
+
+**TAs**
+- Ethan Stiffelman
+- Ray Dipasupil
+
+---
+
+##Housekeeping
+
+###You must have a text editor of some variety for this class!
+
+If you don't, get Sublime Text 2 at [http://www.sublimetext.com/2](http://www.sublimetext.com/2)
+
+Otherwise, use what you've always been using if you already have a text editor preference.
 
 ---
 
 
-##Student Experience
+##What to Expect
 
-*	Ask your producer and then decide how you would like to structure this lesson.
+(We don't bite, really.)
 
 ---
 
