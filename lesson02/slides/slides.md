@@ -20,7 +20,7 @@ Oooh, pretty colors and stuff like that.
 
 ---
 
-![GeneralAssemb.ly](../../img/icons/Exercise_icon_md.png)
+![GeneralAssemb.ly](../img/icons/Exercise_icon_md.png)
 ##What Tag Is It?
 
 ---
