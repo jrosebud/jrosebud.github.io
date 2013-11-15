@@ -2,9 +2,7 @@
 
 #FEWD - CSS Basics
 
-###Instructor Name
-
-Instructors current role.
+Oooh, pretty colors and stuff like that.
 
 ---
 
@@ -170,6 +168,12 @@ No transparency, can be stored at different compression levels with varying amou
 
 ![GeneralAssemb.ly](../../img/icons/code_along.png)
 ##About Me
+
+---
+
+##CSS
+
+If HTML is the framework of a house, CSS is the paint and other things that makes it a unique house. (Is it red? How many bedrooms?)
 
 ---
 
@@ -408,11 +412,38 @@ Note that changing the opacity allows whatever colors are "behind" an element to
 
 ---
 
+##Fonts
+
+There is a set of basic fonts that can be read across just about all browsers.
+
+To declare a font for a webpage, you usually assign it to the ```<body``` tag using the ```font-family``` attribute, like this:
+
+```
+body {
+    font-family: "Georgia", serif;
+}
+```
+
+It should look something like this:
+
+<p style="font-family: "Georgia", serif;">Hello world!</p>
+
+---
+
+##Web Safe Fonts
+
+There are about 12 fonts that can be safely declared in the font-family attribute because they're available across all browsers. You can read more about that here:
+
+http://www.w3schools.com/cssref/css_websafe_fonts.asp
+
+---
+
 
 ##CSS
 ###Review
 
-Add a couple points here wit hthe major take aways foe the basics of CSS.
+- With CSS, we can determine some basic looks for a website: type colors, font weights, font-family.
+- CSS is best called as a separate file.
 
 
 ---
