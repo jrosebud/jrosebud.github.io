@@ -77,6 +77,16 @@ Otherwise, use what you've always been using if you already have a text editor p
 
 ---
 
+##Some Website Stuff and Inspiration
+
+You'll learn to love HTML/CSS as much as I do.
+
+- [Rancho La Puerta](http://rancholapuerta.com)
+- [Pamperosity](http://pamperosity.com)
+- [Tarantino XX](http://tarantinoxx.com)
+
+---
+
 ##Objectives
 
 - You'll learn how to read HTML and CSS.
@@ -204,7 +214,4 @@ Links 
 
 ## Homework
 
-*	Create a resume website
 *	Watch a video about the Internet at http://www.youtube.com/watch?v=7_LPdttKXPc
-
----
