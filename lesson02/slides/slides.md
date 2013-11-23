@@ -447,8 +447,6 @@ http://www.w3schools.com/cssref/css_websafe_fonts.asp
 ---
 
 
-![GeneralAssemb.ly](../img/icons/Exercise_icon_md.png)
+![GeneralAssemb.ly](../../img/icons/Exercise_icon_md.png)
 ##Lab Time
 *	Wendy G. Bites - Resume.
-
----

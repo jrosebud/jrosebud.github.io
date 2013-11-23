@@ -42,6 +42,10 @@
 
 Ethan Stiffelman
 
+- Email: eg.stiffelman@gmail.com
+- Skype: stiffler200
+- Github: http://www.github.com/darkstiffler
+
 Ray Dipasupil
 
 - Email: Raydipasupil@gmail.com
