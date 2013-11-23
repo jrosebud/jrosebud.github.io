@@ -32,19 +32,14 @@ Remember, you can add a class or an ID to any HTML tag. By doing this, you would
 
 ---
 
-
-![GeneralAssemb.ly](../../img/icons/code_along.png)
 ##class & id
 
----
-
-##class & id
-
-####IDs are unique
+###IDs are unique
 
 Usually, you add an ID to something going to be used only once in your entire HTML page. (Note: This becomes pretty important in JavaScript and dynamic programming.)
 
-####Classes are not unique
+
+###Classes are not unique
 
 Re-use classes all you like. If you have a CSS rule you'd like to apply to many elements, regardless of what tag it's applied to, use a class.
 
@@ -147,7 +142,7 @@ Image from Chris Coyier's CSS-Tricks
 
 ##Floats 
 
-Generally you float things left or right. But keep in mind that if you float something, you __immediately__ turn it into an inline element (even if it was a div in the first place).
+Generally you float things left or right. But keep in mind that if you float something, you __immediately__ turn it into an inline element (even if it was a block element in the first place).
 
 And when you float things, remember that you have to clear the float or else things can look horribly awry. Clear is a CSS property, often seen like this:
 
