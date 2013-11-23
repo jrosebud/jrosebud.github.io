@@ -78,7 +78,7 @@ In HTML, your code might look like this:
 
 ##Nested Selectors
 
-If you write a CSS rule for a nested selector, you list the outer tag first, then the second tag - the nested tag/selector - next. Like this:
+If you write a CSS rule for a nested selector, you list the outer tag first, then the second tag (the nested tag or selector) next. Like this:
 
 ```
 blockquote p {
