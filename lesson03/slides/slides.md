@@ -100,6 +100,3 @@ blockquote p {
 
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
 ##Fashion Blog
-
----
-
