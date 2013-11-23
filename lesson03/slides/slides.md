@@ -55,11 +55,6 @@ When writing padding or margin rules in CSS, there are some shortcuts:
 
 ---
 
-![GeneralAssemb.ly](../../img/icons/code_along.png)
-##Box Model
-
----
-
 ##Nested Selectors 
 
 Think of the movie Inception: It's a selector within a selector. There can be different layers and sections to a single page, with tags within each section.
@@ -83,7 +78,7 @@ In HTML, your code might look like this:
 
 ##Nested Selectors
 
-If you write a CSS rule for a nested selector, you list the outer tag first, then the second tag -- the nested tag/selector -- next. Like this:
+If you write a CSS rule for a nested selector, you list the outer tag first, then the second tag - the nested tag/selector - next. Like this:
 
 ```
 blockquote p {
