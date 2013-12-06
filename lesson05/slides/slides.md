@@ -33,6 +33,8 @@ Think about what you want to build.
 * Can I do this by myself, or do I need to bring in other people? Do I need a designer? Do I need a UX person? Do I need (smarter) programmers?
 * What will be the pages needed for the site? What needs to be on each page?
 
+Some people write proposals outlining these things. Others make a list. Whatever works for you!
+
 ---
 
 ##Wireframe & Sketch
@@ -84,98 +86,84 @@ You've got an idea. You sketched it out, you nurtured it, and now you even have 
 
 ---
 
-##Block and inline elements
+##Templatize!
 
-Many tags are __block elements__ by default in HTML. Examples of these tags are: p, ul, div, header, footer, article, h1 (and all the h tags). 
-
-Think of them as giant boxes of things. They are good containers. They also tend to occupy the entire width of your page by default (unless you tell it not to). This often means they sit on their own line and push everything else out of their way.
-
-__Inline elements__ play nice with other content. They tend to sit within block elements. As the name implies, they sit in line with whatever surrounds them. Examples of inline elements are these tags: a, img, span.
+As you start to code a lot of sites (that's the hope, anyway), you may get tired of typing the same things over and over again when you start a new project. That's why you should start with a base template.
 
 ---
 
-##Div vs. Span
+##Template Tips
 
-###Div
+It's good to maintain a base folder for projects. That way, you could just duplicate and rename this folder on your computer and have instant website fertilizer!
 
-* Divs are block elements. Think of them as divas (div = diva, get it?). 
-* Like all good divas, divs like to be on their own line and push everything out of the way. They occupy the stage alone. 
+Some things to have in a starter folder:
 
----
-
-###Span
-
-* Spans are inline elements. They're helpful for when you want make something look different within a div (or any block element, for that matter), but you don't want that styled thing to sit on its own line.
+* an index.html file that already has the appropriate codes in it. (see sample on Schoology.)
+* a stylesheet file.
+* an images folder
 
 ---
 
-##Span example
+##A Word About Resets
 
-Say you had an h1 tag that had a specific style attached to it (like it was bold and the color blue). But maybe you want one word in your h1 tag to be a different color.
-
-If you used a div with a class attribute, it would force a line break in the word that was surrounded by the div tags. But using a span around that single word would keep it in line with all the other text while still allowing you to add a class attribute to it (and change the style of that single word).
+You may have heard of what's called a **CSS Reset**. Much like the name implies, CSS resets (sometimes called normalizers) are a series of rules that define common tags and ensure that all coders are starting from the same point when writing CSS rules, no matter what browser you are looking at.
 
 ---
 
+##Why Resets?
 
-##Floats
+Well, before anyone figured out this reset business, things were not uniform.
 
-Float is a CSS positioning property, used to lay out a web page. 
+For instance, Internet Explorer often added weird padding around objects. Margins for paragraphs were inconsistent across browsers (Firefox used to be quite the offender of this.) Lists had different padding in different browsers.
 
-![](http://css-tricks.com/wp-content/csstricks-uploads/web-layout.png)
-
-<aside class="notes">
-Image from Chris Coyier's CSS-Tricks
-</aside>
+To remove many of these quirks, CSS resets were born. Old-school resets were quite draconian, insisting everything be in normal font and the same size (even h1 tags were the same size as p tags). Modern resets are a little more sophisticated, though they're often hundreds of lines long as a result.
 
 ---
 
-##Floats 
+##HTML5 Boilerplate
 
-Generally you float things left or right. But keep in mind that if you float something, you __immediately__ turn it into an inline element (even if it was a block element in the first place).
+There are tons of resets and normalize stylesheets out there, but my personal favorite is the **HTML5 Boilerplate** - (http://html5boilerplate.com/)
 
-And when you float things, remember that you have to clear the float or else things can look horribly awry. Clear is a CSS property, often seen like this:
-
-```
-clear: both;
-```
-
-This essentially tells an element that follows some floated objects, "Hey, start a new line here after these floated objects. We have a diva coming who demands her own stage."
+This boilerplate actually comes with a bunch of other stuff, but look for the stylesheet, called normalize.css. You can call this as a separate stylesheet. Just make sure to call it first, then your regular stylesheet. You can also use the main.css stylesheet instead and put your styles in there.
 
 ---
 
-##The Clear Property
+##Div-vy Up the Work
 
-You'll often see clears implemented in layouts where you have something floating to the left and something floating to the right (like a sidebar and an article area).
+Once you've got a starter file, now comes the real work. This is where you refer to your design files and your wireframes as reference. 
 
-There are many ways to implement clears, but you'll often see it done as an empty div with a class applied to it. So you'll see this in a stylesheet:
+More tips to starting:
 
-```
-.clear {
-    clear: both;
-}
-```
-
-... and then in HTML:
-
-```
-<div class="clear"></div>
-```
+* Feel free to print out your design or your wireframe and mark the hell out of it with colored pens. It will help you determine what divs you have to set up for different sections, and what tags you might use to represent different things (like H1 tags for headlines or page titles).
+* If you used a grid system, define your max width in your CSS file.
+* Most people find it easier to write the HTML file and tag it up first before applying all the styles.
 
 ---
 
-![GeneralAssemb.ly](../../img/icons/code_along.png)
-##Floating Sections
+##Plug Away!
+
+There's no other way to get started than to actually start. More tips:
+
+* Preview in a browser often. 
+* Use Chrome and the Inspect Element tool religiously. 
+* Use the Inspect Element tool to test things out in CSS and then type those rules into your actual CSS file.
+
+And please, ask questions if you get stuck. Google is a developer's best friend.
 
 ---
 
-##Div-vy Up The Content
+##Snippet Away
 
-* When do I need a class or id?
-* When do I use a div, a span, or an HTML5 tag (like article or header or footer)?
+Over time, many developers maintain their own personal libraries of code that they use over and over again. This is a good practice. If you find yourself looking up specific CSS rules (like how to make a gradient, for example), or use a lot of specific jQuery scripts (like a slideshow script), it's good to put these snippets somewhere.
+
+You can do something as simple as have a running text file, or you could set up snippets in your text editor, or you could use an online service, such as Snipplr.
+
+---
+
+#Go Forth and Create!
 
 ---
 
 
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
-##Fashion Blog
+##Startup Matchmaker
