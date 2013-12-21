@@ -38,15 +38,12 @@ How to add jQuery to your website:
 
 You could download the jQuery file and add it like any other script:
 
-```<script src="js/jquery-1.8.3.min.js"></script>
-``` 
-
+```<script src="js/jquery-1.8.3.min.js"></script>``` 
 
 Or, you can use a version that is hosted somewhere else for everyone to use (such as on Google). This is the recommended method, as it's often faster as far as pageload goes.
 
 
-```<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-``` 
+```<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>``` 
 
 ---
 
@@ -74,14 +71,11 @@ $('tag').show();
 
 When you use jQuery on a page, you usually don't want the script to trigger until the DOM is ready. You'll often see a script wrapped in this function:
 
-
-```
-<script type="text/javascript">
+```<script type="text/javascript">
 $(document).ready(function() {
     \\put some jQuery in here
 });
-</script>
-```
+</script>```
 
 ---
 
