@@ -2,9 +2,7 @@
 
 #FEWD - Arrays
 
-###Instructor Name
-
-Instructors current role.
+Because at some point, you need to collect data and organize it, yes?
 
 ---
 
@@ -31,12 +29,18 @@ What if we had a collection of images that we wanted to display to the screen on
 
 How could we store all the images? 
 
+You would use an **array**.
+
 ---
 
 
 ##Arrays
 
-What is an array?
+__What is an array?__
+
+Simply put, an array is a collection of individual pieces of data. A program, written in whatever language you choose, iterates through the array to grab those pieces of data one by one.
+
+It would be like putting several sheets of paper inside a folder and then passing one sheet of paper around to each person in the room.
 
 ---
 
@@ -44,7 +48,7 @@ What is an array?
 
 ##Declaring Arrays
 
-var myArr = new Array();
+```var myArr = new Array();```
 
 *	declaring an empty array using the Array constructor.
 
@@ -53,7 +57,7 @@ var myArr = new Array();
 
 ##Declaring Arrays
 
-var myArr = [ ];
+```var myArr = [ ];```
 
 *	declaring an empty array using literal notation.
 	
@@ -61,10 +65,10 @@ var myArr = [ ];
 
 ##Declaring Arrays
 
-myArr = ['Hello', 54.3, true];
+```myArr = ['Hello', 54.3, true];```
 
 *	Arrays are filled with elements: i.e. myArr3 = [element, anotherElement];
-*	Elements can be strings, numbers, or booleans.
+*	Elements can contain strings, numbers, booleans, and more.
 	
 
 ---
@@ -129,14 +133,6 @@ What if I would like to know how long my array is (how many elements)?
 
 ---
 
-##Array Length
-
-What if I would like to know how long my array is (how many elements)?
-	
-	console.log(myArr.length); //prints 4
-
----
-
 ![GeneralAssemb.ly](../../img/icons/code_along.png)
 ##Arrays
 
@@ -148,7 +144,7 @@ What if I would like to know how long my array is (how many elements)?
 Allows you to run code using each element from the array as a value
 Syntax:
 
-	Array.ForEach
+	Array.forEach
 
 
 
