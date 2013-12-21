@@ -48,7 +48,9 @@ It would be like putting several sheets of paper inside a folder and then passin
 
 ##Declaring Arrays
 
-```var myArr = new Array();```
+```
+var myArr = new Array();
+```
 
 *	declaring an empty array using the Array constructor.
 
@@ -57,7 +59,9 @@ It would be like putting several sheets of paper inside a folder and then passin
 
 ##Declaring Arrays
 
-```var myArr = [ ];```
+```
+var myArr = [ ];
+```
 
 *	declaring an empty array using literal notation.
 	
@@ -65,7 +69,9 @@ It would be like putting several sheets of paper inside a folder and then passin
 
 ##Declaring Arrays
 
-```myArr = ['Hello', 54.3, true];```
+```
+myArr = ['Hello', 54.3, true];
+```
 
 *	Arrays are filled with elements: i.e. myArr3 = [element, anotherElement];
 *	Elements can contain strings, numbers, booleans, and more.
@@ -153,7 +159,7 @@ Syntax:
 
 ##Array Length
 
-	var fruits=[“Banana”,”Apple”,”Pear”]
+	var fruits=["Banana","Apple","Pear"]
 		fruits.forEach(function(element,index){
 		console.log(element,index);
 	});

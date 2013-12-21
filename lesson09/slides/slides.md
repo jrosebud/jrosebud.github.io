@@ -26,7 +26,7 @@ In other words, jQuery combines a lot of things in the background to make writin
 
 ##jQuery
 
-*	jquery.com - A JavaScript library that makes DOM manipulation simple.*	“Cross browser” - works the same in most (!) browsers. *	Allows:
+*	jquery.com - A JavaScript library that makes DOM manipulation simple.*	"Cross browser" - works the same in most (!) browsers. *	Allows:
 	*	Document traversal	*	CSS Manipulation	*	Event Handling	*	Animation	*	and more!
 
 ---
@@ -71,11 +71,11 @@ $('tag').show();
 
 When you use jQuery on a page, you usually don't want the script to trigger until the DOM is ready. You'll often see a script wrapped in this function:
 
-```<script type="text/javascript">
+```
 $(document).ready(function() {
-    \\put some jQuery in here
+    put some jQuery here
 });
-</script>```
+```
 
 ---
 
