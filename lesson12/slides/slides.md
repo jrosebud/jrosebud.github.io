@@ -2,22 +2,14 @@
 
 #FEWD - Forms & Inputs
 
-###Instructor Name
-
-Instructors current role.
+Because at some point, you need to ask users to give you data, right?
 
 ---
 
-
-##Agenda
-
-
-
----
 
 ##Forms
 
-How we can get data from users.
+Forms are how we can get data from users.
 
 ![](../../img/unit_2/forms.png)
 
@@ -25,19 +17,7 @@ How we can get data from users.
 
 ##Forms
 
-*	Wrapper for data collection elements 
-
-	*	Text fields
-	*	dropdowns
-	*	Radio Buttons 
-	*	etc
-	
----
-
-
-##Forms
-
-Tells the page: 
+Forms tell the page: 
 
 *	Where to send the data
 *	How to send it
@@ -78,22 +58,12 @@ In Action
 *	Place between ```<form> </form>``` tags
 
 *	Attributes
-	*	Type 
-	*	Text,submit,password,email,checkbox,button,radio,file,etc
+	*	Type: Text, submit, password, email, checkbox, button, radio, file, etc
 	*	Name
-		*	Used server side 
 	*	Placeholder
 	*	Value
 
-<aside class="notes">
-
-Complete Spec: <a href="http://www.w3schools.com/tags/tag_input.asp"
-
-*	Gotchas
-	*	The font-family for an input is not inherited!!!
-	*	This can lead to funny sizing issues on Macs vs. PCs where the default font is not the same
-
-</aside>
+Complete Spec: http://www.w3schools.com/tags/tag_input.asp
 
 ---
 
@@ -175,42 +145,50 @@ Clicking the label text in either case places the focus in the input field (grea
 *	Can’t be styled directly
 	*	Checkboxes, File upload inputs, Radio buttons
 
+<aside class="notes">
 *	Number of ways to do this *instructor can cover all or just choose one
 	1.	Opacity 0 on the element, set it’s height and width to define clickable area, set the height and width of it’s parent to be the same as the input (don’t forget position relative). Style the parent.
 	2.	Hide the element, style a corresponding label how you wanted the element to appear
 	3.	Try using pseudo elements and the selector :checked for no JS switching between checked and unchecked images used for styling
+</aside>
+
+---
+
+
+##Form Validation
+
+Most form validation is handled using JavaScript. Validation checks for things like empty fields that are required and whether a legit email is put in the email field.
+
+It's often easiest to use a ready made script to validate a form. Parsley.js (http://parsleyjs.org/) is an example of one, but you can Google several others.
+
+---
+
+##Form Processors
+
+A note about forms:
+
+Just because you write a form doesn't mean it can automatically send the data to someone! You need what's called a form processor. These are often written in a back-end coding language such as PHP or Ruby or ASP. These processors take what's written in the fields and send it out in an email message (or insert the data in a database if you're feeling really fancy).
+
+---
+
+##Form Processors
+
+Basic form processors simply send an email to someone when a form is filled out. This is all that most people need.
+
+There are a few simple PHP processors out there. You don't need to know PHP to use them. You can Google a few, but one nice one can be found here: https://github.com/erikreagan/Catch-All-PHP-Form-Processor
+
+---
+
+##Form Processors
+
+The alternative to hosting your own form and using a separate processor is to use a form building service. Most of these have free versions of their services, but depending on how complex your form needs are, you may have to step up to a paid account.
+
+Two processors to look at:
+
+- **Wufoo:** http://www.wufoo.com
+- **JotForm:** http://www.jotform.com
 
 ---
 
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
 ##GA Application Form
-
----
-
-
-##Optional: Fieldset/Legend
-
-```
-<fieldset>
-Wrapper for grouped form elements
-Ex: First, middle, last name text fields
-<legend>
-Goes inside fieldset
-Defines the grouping term for the fieldset
-<fieldset>
-	<legend>Your Name</legend>
-	<input type=“text” name=“first_name”>
-	<input type=“text” name=“middle_name”>
-	<input type=“text” name=“last_name”>
-</fieldset>
-```
-
----
-
-##Optional: Validation
-
-*	Use library or simple if/else statements
-*	Parsley.js is an easy library to show off
-
-
----
