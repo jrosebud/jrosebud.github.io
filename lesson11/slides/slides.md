@@ -258,6 +258,27 @@ There are a billion slideshow plugins out there, but here are a few of my favori
 
 ---
 
+##UI Elements
+
+Sometimes, you might want fancy elements. Maybe tabs for people to navigate through? Accordions? Carousels?
+
+These are two really nifty libraries that have a wide range of stuff you could use:
+
+- **jQuery UI:** http://jqueryui.com/
+- **jQuery Tools:** http://jquerytools.org/
+
+---
+
+##Pop Me Up
+
+You ever see those fancy popup boxes that black out the background of a page? These are often used in photo galleries, but you see other uses for them. They are called modal windows. Modal yourself here:
+
+- **Lightbox** (actually a JavaScript library, not jQuery): http://lokeshdhakar.com/projects/lightbox2/
+- **Colorbox:** http://www.jacklmoore.com/colorbox/
+- **FancyBox:** http://fancybox.net/
+
+---
+
 ##Fancy Scrollers
 
 You may see some nifty "one-page" sites out there, that have sliding panels or links that scroll smoothly to a different part of the page.
