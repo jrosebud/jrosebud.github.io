@@ -10,7 +10,7 @@ A whirlwind review of jQuery.
 ##Best Practices
 
 - Put your jQuery scripts at the bottom of your page. This will help ensure the HTML document has time to load and your script will actually have something to target.
-- Wrap your functions and your jQuery in ```$(document).ready(function{ your jQuery awesomeness in here });``
+- Wrap your functions and your jQuery in `$(document).ready(function{ your jQuery awesomeness in here });`
 - **DON'T FORGET TO INCLUDE THE JQUERY LIBRARY IN THE `<head></head>` OF YOUR PAGE!** Remember, you can Google "Google jQuery script" and get the link from the Google Developer Library.
 
 ---
@@ -28,7 +28,7 @@ $("p")
 ```
 ---
 
-#Useful jQuery Functions
+##Useful jQuery Functions
 
 There are a myriad of functions you can do in jQuery once you've selected something to manipulate. You can change a CSS property, add an attribute, add or remove a class to an element, hide it, show it, etc.
 
@@ -58,7 +58,7 @@ $("li.menu").attr("class", "open");
 The syntax when using ```.attr``` is:
 .attr("attributename", "value");
 
-___
+---
 
 ##Useful jQuery Functions
 
@@ -148,7 +148,7 @@ You can also detect the presence of a class in a particular element. You can use
 
 ##Keyword: "This"
 
-In jQuery “this” refers to the selected object.
+In jQuery "this" refers to the selected object.
 
 ---
 
@@ -158,7 +158,7 @@ In jQuery “this” refers to the selected object.
 How about this code?
 
 ```
-$(“a”).on(“click”,function(e){
+$('a').on('click',function(e){
     $(this).fadeOut(500);
 });
 ```
