@@ -131,7 +131,7 @@ To tie the two together choose one of these methods:
 
 ```<label>Name <input type="text" name="yourName"></label>```
 
-```<label for="yourName">Name</label><input type="text" name=“yourName” id=“yourName”>```
+```<label for="yourName">Name</label><input type="text" name="yourName" id="yourName">```
 
 <aside class="notes">
 Usability
@@ -142,12 +142,12 @@ Clicking the label text in either case places the focus in the input field (grea
 
 ##Styling
 
-*	Can’t be styled directly
+*	Can't be styled directly
 	*	Checkboxes, File upload inputs, Radio buttons
 
 <aside class="notes">
 *	Number of ways to do this *instructor can cover all or just choose one
-	1.	Opacity 0 on the element, set it’s height and width to define clickable area, set the height and width of it’s parent to be the same as the input (don’t forget position relative). Style the parent.
+	1.	Opacity 0 on the element, set it's height and width to define clickable area, set the height and width of it's parent to be the same as the input (don't forget position relative). Style the parent.
 	2.	Hide the element, style a corresponding label how you wanted the element to appear
 	3.	Try using pseudo elements and the selector :checked for no JS switching between checked and unchecked images used for styling
 </aside>
