@@ -45,11 +45,11 @@ Available Attributes
 
 In Action
 
-```
+`
 <form action="register.php" method="post" enctype="multipart/form-data">
 	<!--Data collection elements go here-->
 </form>
-```
+`
 
 ---
 
@@ -101,13 +101,13 @@ Hides characters as typed
 
 ##Submit vs File vs Button
 
-*	Value is button text. Defaults to submit in chrome, submit query in IE ```<input type=“submit” value=“Submit”>```
+*	Value is button text. Defaults to submit in chrome, submit query in IE ```<input type="submit" value="Submit">```
 
 
-*	Creates a file upload element ```<input type=“file”>```
+*	Creates a file upload element ```<input type="file">```
 
 
-*	Creates clickable button ```<input type=“button”>```
+*	Creates clickable button ```<input type="button">```
 
 ---
 
