@@ -139,11 +139,11 @@ Again, it helps to think of ems as kind of like percentages.
 
 Based on parent:
 
-Parent{ font-size:16px;}
+Parent {font-size:16px;}
 
-Child{font-size:2em;}
+Child {font-size:2em;}
 
-Child’s font size is 32px
+Child's font size is 32px
 
 There is a nifty converter here:
 http://pxtoem.com/
@@ -158,6 +158,7 @@ http://pxtoem.com/
 
 ##Media Queries - what should be in code?
 
+```
 @media only screen and
 (max-width: xPx)
 (min-width: xPx)
@@ -167,6 +168,7 @@ http://pxtoem.com/
 For iPad
 (orientation: portrait)
 (orientation: landscape)
+```
 
 Separate multiple clauses with "and"
 
@@ -189,6 +191,8 @@ Optional: user-scalable=none
 Why necessary?
 Mobile browser assumption of fixed layout of 980px
 
+---
+
 ##Media Queries
 
 Standard media queries sizes:
@@ -200,8 +204,6 @@ Standard media queries sizes:
 * iPad landscape: 1024px max width
 
 931px is also a common breakpoint, as it is applicable to many Android tablets.
-
-
 
 ---
 
