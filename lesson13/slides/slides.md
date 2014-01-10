@@ -28,7 +28,7 @@ What we'll talk about is also sometimes referred to as **fluid design**.
 
 ##Why Responsive?
 
-The use of mobile devices -- phones and tablets -- has risen exponentially in the last few years. It's no longer enough to just design a desktop experience for people. More and more people are consuming the internet via tiny screens, and think about how different (and harder) it can be to use a website on a smaller screen.
+The use of mobile devices - phones and tablets - has risen exponentially in the last few years. It's no longer enough to just design a desktop experience for people. More and more people are consuming the internet via tiny screens, and think about how different (and harder) it can be to use a website on a smaller screen.
 
 ---
 
@@ -40,7 +40,6 @@ There are a few techniques used in responsive design:
 * Using ems instead of pixels for font-size
 * Using media queries to determine your screen sizes
 
----side>
 
 ---
 
