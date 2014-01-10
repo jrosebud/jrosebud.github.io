@@ -2,9 +2,6 @@
 
 #FEWD - Converting Non-Responsive To Responsive
 
-###Instructor Name
-
-Instructors current role.
 
 ---
 
