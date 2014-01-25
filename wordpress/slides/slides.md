@@ -76,21 +76,21 @@ You'll eventually need to log into your WordPress admin panel to activate your t
 
 For a basic theme, you'll need these files:
 
-* style.css -- your theme's stylesheet
-* header.php -- the header for your theme, shared across your pages
-* footer.php -- the footer for your theme, shared across your pages
-* index.php -- your blog's template
-* page.php -- the default page template for your theme
-* single.php -- the default template for a single blog post
+* style.css - your theme's stylesheet
+* header.php - the header for your theme, shared across your pages
+* footer.php - the footer for your theme, shared across your pages
+* index.php - your blog's template
+* page.php - the default page template for your theme
+* single.php - the default template for a single blog post
 
 ---
 
 ##Other files you'll see
 
-* archive.php -- the template for archive pages (date, category, etc.)
-* sidebar.php -- a shared sidebar across your pages if you want to have one
-* functions.php -- special functions related to your theme
-* comments.php -- the comments template (if you have a blog)
+* archive.php - the template for archive pages (date, category, etc.)
+* sidebar.php - a shared sidebar across your pages if you want to have one
+* functions.php - special functions related to your theme
+* comments.php - the comments template (if you have a blog)
 
 ---
 
