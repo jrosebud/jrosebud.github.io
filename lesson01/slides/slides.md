@@ -216,13 +216,15 @@ Links
  ```<a href="link" target="_blank">Item</a>```
 
 
----
+--
 
-## Images
+##Content Tags
+
+Images
 
 To put an image on an HTML page, you use the ```<img>``` tag:
 
-```<img src="images/image.jpg"```
+```<img src="images/image.jpg">```
 
 The src is the path to the image.
 
