@@ -117,6 +117,10 @@ A piece of text to be used in lieu of the image when the image is unavailable
 
 Using `alt` attributes has the added benefit of giving search engines more linguistic context about the image as it is used on your page.
 
+---
+
+##Html Basics - Images
+
 Reasons an image may not load: 
 
 *	There was a connection error, the browser didn't download the image.
@@ -431,6 +435,10 @@ body {
 There are about 12 fonts that can be safely declared in the font-family attribute because they're available across all browsers. You can read more about that here:
 
 http://www.w3schools.com/cssref/css_websafe_fonts.asp
+
+You can also use Google Fonts:
+
+http://google.com/fonts
 
 ---
 
