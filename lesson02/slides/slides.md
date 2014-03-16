@@ -20,7 +20,7 @@ Oooh, pretty colors and stuff like that.
 
 ---
 
-![GeneralAssemb.ly](../img/icons/Exercise_icon_md.png)
+![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
 ##What Tag Is It?
 
 ---
@@ -455,6 +455,6 @@ http://google.com/fonts
 ---
 
 
-![GeneralAssemb.ly](../img/icons/Exercise_icon_md.png)
+![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
 ##Lab Time
 *	Wendy G. Bites - Resume.
