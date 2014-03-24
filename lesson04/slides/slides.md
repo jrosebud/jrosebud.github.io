@@ -105,7 +105,7 @@ The key here is the text-align: center in the ```nav``` element and the ```displ
 
 ##Centered Navigation
 
-Making the ```ul``` take the display: inline-block; property essentially tells the item -- normally a block item that occupies 100% of the width of the container:
+Making the ```ul``` take the display: inline-block; property essentially tells the item - normally a block item that occupies 100% of the width of the container:
 
 ***"Hey, dude. I'd like you to be a block element, but not such an obnoxious one. Act like an inline element in that you don't occupy the entire width of the line, but still stay on one line."***
 
