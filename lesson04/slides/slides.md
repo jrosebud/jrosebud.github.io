@@ -94,6 +94,9 @@ nav a:hover {
 }
 ```
 
+---
+
+
 ##Centered Navigation
 
 The key here is the text-align: center in the ```nav``` element and the ```display: inline-block;``` in the ul. The text-align: center does exactly what you think it would do: center the content within the nav block. (Note that text-align: center works for things like images too, not just text!)
