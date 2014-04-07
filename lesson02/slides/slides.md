@@ -20,7 +20,7 @@ Oooh, pretty colors and stuff like that.
 
 ---
 
-![GeneralAssemb.ly](../../img/icons/Exercise_icon_md.png)
+![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
 ##What Tag Is It?
 
 ---
@@ -116,6 +116,10 @@ alt attribute
 A piece of text to be used in lieu of the image when the image is unavailable
 
 Using `alt` attributes has the added benefit of giving search engines more linguistic context about the image as it is used on your page.
+
+---
+
+##Html Basics - Images
 
 Reasons an image may not load: 
 
@@ -432,6 +436,10 @@ There are about 12 fonts that can be safely declared in the font-family attribut
 
 http://www.w3schools.com/cssref/css_websafe_fonts.asp
 
+You can also use Google Fonts:
+
+http://google.com/fonts
+
 ---
 
 
@@ -447,6 +455,6 @@ http://www.w3schools.com/cssref/css_websafe_fonts.asp
 ---
 
 
-![GeneralAssemb.ly](../../img/icons/Exercise_icon_md.png)
+![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
 ##Lab Time
 *	Wendy G. Bites - Resume.

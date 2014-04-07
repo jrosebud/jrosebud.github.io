@@ -105,6 +105,7 @@ What can you store in a variable?
 
 </aside>
 
+---
 
 ##Data Types
 

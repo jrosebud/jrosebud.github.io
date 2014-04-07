@@ -14,7 +14,6 @@
 - Introductions
 - Housekeeping
 - What to Expect in This Class
-- Intro To Web Development
 - HTML Tags
 - Lab Time
 
@@ -40,17 +39,15 @@
 
 **TAs**
 
-Ethan Stiffelman
+**Ethan Stiffelman**
 
 - Email: eg.stiffelman@gmail.com
 - Skype: stiffler200
 - Github: http://www.github.com/darkstiffler
 
-Ray Dipasupil
+**Julie Bouck**
 
-- Email: Raydipasupil@gmail.com
-- Website: http://stancetrader.com
-- Twitter: [@914rdd](http://twitter.com/914rdd)
+- Email: juliepranger@gmail.com
 
 ---
 
@@ -62,15 +59,17 @@ If you don't, get Sublime Text 2 at [http://www.sublimetext.com/2](http://www.su
 
 Otherwise, use what you've always been using if you already have a text editor preference.
 
+Also, it's best to create folders for your individual projects and exercises throughout class, just to keep things organized.
+
 ---
 
 ##Schoology
 
 - We'll post files for class there.
-- You'll turn in homework to Schoology as zip files.
-- We'll post resources and links too.
-- Class will be recorded (barring any technical difficulties), and links to the slides can be found on Schoology.
-- You can also find the slides at http://jrosebud.github.io
+- You'll turn in homework to Schoology as zip files or email them to the instructional team.
+- We'll post resources and links too, as well as announcements.
+- Class will be recorded (barring any technical difficulties), and links to the Vimeo videos will be on Schoology.
+- You can also find the slides at [http://jrosebud.github.io](http://jrosebud.github.io)
 
 ---
 
@@ -83,7 +82,7 @@ Otherwise, use what you've always been using if you already have a text editor p
 
 ##Some Website Stuff and Inspiration
 
-You'll learn to love HTML/CSS as much as I do.
+You'll learn to love HTML/CSS as much as I do. Here is some of my work.
 
 - [Rancho La Puerta](http://rancholapuerta.com)
 - [Pamperosity](http://pamperosity.com)
@@ -218,6 +217,18 @@ Links
 
 
 --
+
+##Content Tags
+
+Images
+
+To put an image on an HTML page, you use the ```<img>``` tag:
+
+```<img src="images/image.jpg">```
+
+The src is the path to the image.
+
+---
 
 
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
