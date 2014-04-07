@@ -53,7 +53,7 @@ Wireframing can be as simple as taking pen and paper and drawing a bunch of boxe
 * **Mockingbird** (www.gomockingbird.com) - Web-based wireframes, nice drag and drop interface. 
 * **iMockups** (iPad app) - Like Mockingbird, except for the iPad only. Not a free app.
 * **Balsamiq** (www.balsamiq.com) - Web and desktop app. Not free.
-* **OmniGraffle** - paid standalone app. Available for Mac and PC and iPad. 
+* **OmniGraffle** - paid standalone app. Available for Mac and iPad. 
 
 ---
 
@@ -71,7 +71,11 @@ Some grid frameworks come with Photoshop templates. Otherwise, you can figure ou
 
 There are lots of grid systems and frameworks out there. They can make your life easier as a coder. They can also help in the design process by giving a designer some proportions and specs to work with (which makes your life easier in the end).
 
-This is a small sampling:
+---
+
+##Grids and Frameworks
+
+This is a small sampling of frameworks/grids:
 
 * **1140 Grid** (www.cssgrid.net) - The author has retired it, but it's still in use. Comes with a handy Photoshop template. It's my personal favorite.
 * **Extra Strength Responsive Grids** (dfcb.github.io/extra-strength-responsive-grids/) - Another grid system that can actually be adjusted to whatever width you want.
