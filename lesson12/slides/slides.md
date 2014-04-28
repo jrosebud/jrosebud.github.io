@@ -47,7 +47,7 @@ In Action
 
 ```
 <form action="register.php" method="post" enctype="multipart/form-data">
-	<!--Data collection elements go here-->
+	Data collection elements go here
 </form>
 ```
 
