@@ -46,15 +46,9 @@ Available Attributes
 In Action
 
 ```
-<<<<<<< HEAD
 <form action="register.php" method="post" enctype="multipart/form-data">
-	<!--Data collection elements go here-->
-</form>
-=======
-< form action="register.php" method="post" enctype="multipart/form-data" >
 	Data collection elements go here
-< /form >
->>>>>>> cd4e107af89b0967ddd94cae6dbbabf7d73313a9
+</form>
 ```
 
 ---
