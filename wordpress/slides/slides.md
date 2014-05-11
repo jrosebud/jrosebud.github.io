@@ -129,9 +129,9 @@ By using includes, you put the code a specific section in one file and only have
 
 There are three includes commonly used in WordPress files:
 
-* ```< ?php get_header(); ?>``` -- calls the contents of the header.php file
-*  ```< ?php get_footer(); ?>``` -- calls the contents of the footer.php file
-*  ```< ?php get_sidebar(); ?>``` -- calls the contents of the sidebar.php file if you use a common sidebar in your theme
+* ```< ?php get_header(); ?>``` - calls the contents of the header.php file
+*  ```< ?php get_footer(); ?>``` - calls the contents of the footer.php file
+*  ```< ?php get_sidebar(); ?>``` - calls the contents of the sidebar.php file if you use a common sidebar in your theme
 
 ---
 
