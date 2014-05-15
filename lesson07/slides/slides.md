@@ -90,7 +90,7 @@ name is now Amir.
 
 *	Variables start with a lower case letter
 
-*	If they contain multiple words, subsequent words start with an upper case letter. (Snake case!)
+*	If they contain multiple words, subsequent words start with an upper case letter. (Camel case!)
 
 		var numberOfStudents = 10;
 
