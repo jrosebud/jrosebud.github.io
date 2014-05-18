@@ -62,7 +62,8 @@ For instance, you might have a ```<blockquote>``` on your page. Sometimes this b
 In HTML, your code might look like this:
 
 
-```<blockquote>
+```
+<blockquote>
     <p>Some paragraph here.</p>
     <p>Some paragraph here.</p>
 </blockquote>
