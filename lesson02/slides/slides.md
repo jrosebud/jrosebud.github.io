@@ -377,7 +377,7 @@ White-space is allowed *inside* the parentheses, so `rgb(255, 0, 0)` will do jus
 
 
 *	RGBa works identically to RGB, expect that it takes a 4th value called the "alpha".
-*	This is a value between 0 and 1 which will be used to determine a color's opacity on the page,
+*	This is a value between 0 and 1 which will be used to determine a color's opacity on the page. 0 is completely transparent (invisible), and is 1 totally opaque (solid). 0.5 is 50% opacity.
 
 
 ![](../../img/unit_1/rgba_color.png)
@@ -448,7 +448,7 @@ http://google.com/fonts
 
 - With CSS, we can determine some basic looks for a website: type colors, font weights, fonts.
 - CSS is best called as a separate file.
-- Color can be called in one of three ways: the name of the color, a hex code (like #000000), or RGB/RGBa. HSL doesn't really get used very often.
+- Color can be called in one of three ways: the name of the color, a hex code (like #000000), or RGB/RGBa. 
 - There are a few safe font families that can be declared for a website. These are often used as body text.
 
 
