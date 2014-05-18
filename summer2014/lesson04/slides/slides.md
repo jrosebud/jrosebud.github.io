@@ -9,10 +9,59 @@ Navigation, floats, positioning, oh my!
 
 ##Agenda
 
-*	Navigation
 *	Floats
+*	Navigation
 *	Positioning
 *	Lab Time
+
+---
+
+##Floats
+
+Float is a CSS positioning property, used to lay out a web page. 
+
+![](http://css-tricks.com/wp-content/csstricks-uploads/web-layout.png)
+
+<aside class="notes">
+Image from Chris Coyier's CSS-Tricks
+</aside>
+
+---
+
+##Floats 
+
+Generally you float things left or right. But keep in mind that if you float something, you __immediately__ turn it into an inline element (even if it was a block element in the first place).
+
+And when you float things, remember that you have to clear the float or else things can look horribly awry. Clear is a CSS property, often seen like this:
+
+```
+clear: both;
+```
+
+This essentially tells an element that follows some floated objects, "Hey, start a new line here after these floated objects. We have a diva coming who demands her own stage."
+
+---
+
+##The Clear Property
+
+You'll often see clears implemented in layouts where you have something floating to the left and something floating to the right (like a sidebar and an article area).
+
+There are many ways to implement clears, but you'll often see it done as an empty div with a class applied to it. So you'll see this in a stylesheet:
+
+```
+.clear {
+    clear: both;
+}
+```
+
+..and then in HTML:
+
+```<div class="clear">&nbsp;</div>```
+
+---
+
+![GeneralAssemb.ly](../../img/icons/code_along.png)
+##Floating Sections
 
 ---
 
@@ -128,55 +177,6 @@ The holy grail of dropdown navigation in CSS is explained here:
 http://www.htmldog.com/articles/suckerfish/dropdowns/
 
 Son of Suckerfish is very well documented, take a whirl and check it out!
-
----
-
-##Floats
-
-Float is a CSS positioning property, used to lay out a web page. 
-
-![](http://css-tricks.com/wp-content/csstricks-uploads/web-layout.png)
-
-<aside class="notes">
-Image from Chris Coyier's CSS-Tricks
-</aside>
-
----
-
-##Floats 
-
-Generally you float things left or right. But keep in mind that if you float something, you __immediately__ turn it into an inline element (even if it was a block element in the first place).
-
-And when you float things, remember that you have to clear the float or else things can look horribly awry. Clear is a CSS property, often seen like this:
-
-```
-clear: both;
-```
-
-This essentially tells an element that follows some floated objects, "Hey, start a new line here after these floated objects. We have a diva coming who demands her own stage."
-
----
-
-##The Clear Property
-
-You'll often see clears implemented in layouts where you have something floating to the left and something floating to the right (like a sidebar and an article area).
-
-There are many ways to implement clears, but you'll often see it done as an empty div with a class applied to it. So you'll see this in a stylesheet:
-
-```
-.clear {
-    clear: both;
-}
-```
-
-..and then in HTML:
-
-```<div class="clear">&nbsp;</div>```
-
----
-
-![GeneralAssemb.ly](../../img/icons/code_along.png)
-##Floating Sections
 
 ---
 

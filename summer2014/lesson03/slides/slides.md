@@ -90,7 +90,9 @@ blockquote p {
 
 ##Divide and Conquer
 
-There are many tags you can use to section off your content. We've talked about a few of these already, such as ```header```, ```footer```, ```section```, ```article```. There are two other tags that you'll use a lot, maybe even more than those HTML5 tags:
+There are many tags you can use to section off your content. There are a few tags that were introduced in HTML5, such as ```header```, ```footer```, ```section```, ```article```. 
+
+There are two other tags that you'll use a lot, maybe even more than those HTML5 tags:
 
 * div
 * span

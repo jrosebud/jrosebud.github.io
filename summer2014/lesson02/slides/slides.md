@@ -138,6 +138,8 @@ There are three main image file formats:
 
 ####.png
 
+* Supports transparency and is still high-quality. Use it for logos or icons, or anything that needs to be high-quality and has to have a transparent background.
+
 <aside class="notes">
 Supports transparency and semi-transparency, great for logos, icons, and repeating background tiles. Almost always preferable to a `gif`, unless semi-transparency is not needed, and the `gif` format is significantly smaller.
 </aside>
@@ -149,13 +151,15 @@ Supports transparency and semi-transparency, great for logos, icons, and repeati
 
 ####.gif
 
-*	Can have basic transparency, typically a `png` is used instead.
+*	Can have basic transparency, typically a `png` is used instead. You can of course use this for animated gifs. But don't use it for photos because the quality is terrible!
 
 ---
 
 ##Image File Formats
 
 ####.jpg
+
+* Web format for all photos. Be reasonable with your sizing! Don't upload something that's 3MB. In general, a good rule of thumb is no more than 1200 pixels wide at 72 dpi resolution. If you're worried about retina screens, save your photos at 125 or 150 dpi.
 
 <aside class="notes">
 No transparency, can be stored at different compression levels with varying amounts of "lossy-ness", typically the best format for photos. (Try to balance between photo quality and file size.)
