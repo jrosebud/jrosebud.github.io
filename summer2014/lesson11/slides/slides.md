@@ -304,6 +304,14 @@ Sometimes, you have multiple columns that you need to make sure are the same siz
 
 ---
 
+##Fun With Grids
+
+Sometimes, you'll see a really cool grid layout where all the boxes aren't the same height or length, but everything fits nicely together like bricks. It makes for a nice collage effect. To achieve that, use Masonry:
+
+- **Masonry:** http://masonry.desandro.com/
+
+---
+
 #...And So Much More!
 
 Remember, Google is your friend. Chances are, if you need something in jQuery, someone has created it. Most really good jQuery plugins come with documentation that should tell you how to implement and use the plugin. So have fun (but don't go overboard)!
