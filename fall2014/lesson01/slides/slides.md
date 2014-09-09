@@ -37,13 +37,7 @@
 
 ---
 
-**TAs**
-
-**Ethan Stiffelman**
-
-- Email: eg.stiffelman@gmail.com
-- Skype: stiffler200
-- Github: http://www.github.com/darkstiffler
+**TA**
 
 **Ray Dipasupil**
 
@@ -68,9 +62,9 @@ Also, it's best to create folders for your individual projects and exercises thr
 * We'll use Trello to post resources and class files.
 * You'll turn in homework to Trello. Create a card with your name and the name of the assignment under the Homework section, and upload your file to that card.
 * You may post questions on Trello. It's a nice discussion board. Feel free to answer your fellow students' questions if you know the answer!
-* Jenn will send announcements via Schoology to make sure people get them in their email. 
+* Jenn will send announcements via a post on Trello to make sure people get them in their email. 
 * Class will be recorded (barring any technical difficulties), and links to the Vimeo videos will be on Trello.
-- You can also find the slides at [http://jrosebud.github.io/summer2014](http://jrosebud.github.io/summer2014)
+- You can also find the slides at [http://jrosebud.github.io/fall2014](http://jrosebud.github.io/fall2014)
 
 ---
 
