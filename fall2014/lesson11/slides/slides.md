@@ -228,7 +228,7 @@ The other means of traversal is by using these three functions:
 
 ```
 .parent()
-.child()
+.children()
 .siblings()
 ```
 
@@ -275,7 +275,7 @@ You ever see those fancy popup boxes that black out the background of a page? Th
 
 - **Lightbox** (actually a JavaScript library, not jQuery): http://lokeshdhakar.com/projects/lightbox2/
 - **Colorbox:** http://www.jacklmoore.com/colorbox/
-- **FancyBox:** http://fancybox.net/
+- **FancyBox:** http://fancyapps.com/
 
 ---
 
