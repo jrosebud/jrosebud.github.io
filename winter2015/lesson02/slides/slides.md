@@ -9,13 +9,14 @@ Oooh, pretty colors and stuff like that.
 
 ##Agenda
 
-*	HTML Basics Review
-*	Images
+*	More HTML Basics
+	*	Images
+	*	Linking To Other Pages
+	*	HTML5-Specific Tags
+	*	Basic HTML Page Structure
 *	Intro To CSS
-	*	Link Tag
 	*	Colors
 	*	Fonts
-*	Linking To Other Pages
 *	Lab Time
 
 ---
@@ -64,21 +65,6 @@ Relative Path
 Note that ```..``` means to go up a directory, and can be used repeatedly: `../..` would go up two directories.
 </aside>
 
----
-
-##HTML Basics - Images
-
-Absolute Path
-
-```<img src="/images/logo.png">```
-
-<aside class="notes">
-	Absolute URLs start with a `/`, so if we imagine that our `webroot` directory was stored on a server such that the `webroot/index.html` file is accessible at `http://example.com/index.html`, then placing the logo image could be done from any html page with: ```<img src="/images/logo.png">```
-	
-The benefit here is that this same ```src``` path works on any html page, no matter what its location, so the same ```img``` tag can be used on both the ```webroot/index.html``` page and the ```webroot/about/index.html``` page.
-	
-The downside is that the path only works if the project is stored to a proper location for serving.
-</aside>
 
 ---
 
@@ -156,6 +142,46 @@ Supports transparency and semi-transparency, great for logos, icons, and repeati
 <aside class="notes">
 No transparency, can be stored at different compression levels with varying amounts of "lossy-ness", typically the best format for photos. (Try to balance between photo quality and file size.)
 </aside>
+
+---
+
+##HTML5-Specific Tags
+
+As mentioned in a previous class, there are some tags that were introduced when HTML5 became the new web standard. Here are a few of them:
+
+`<header>` ... `<header>`
+
+`<footer>` ... `<footer>`
+
+`<section>` ... `<section>`
+
+`<article>` ... `<article>`
+
+---
+
+##Basic HTML Page Structure
+
+There are a few other tags you should be aware of and starting to use when you code your pages. There is a basic structure to HTML, and it goes something like this:
+
+`<html>`
+
+`<head>`
+`</head>`
+
+`<body>`
+`</body>`
+
+`</html>`
+
+---
+
+##Basic HTML Page Structure
+
+In general, **all** your written HTML goes inside the `<html>` tags.
+
+The `<head>` tags are reserved for things that are important but don't necessarily render onto the page. The `<head>` is often where CSS stylesheets are linked, scripts get linked, and the `<title>` ... `</title>` tag resides, which puts a title in the tab or top bar of a browser window.
+
+The `<body>` tag is the body of your site ... in other words, it's where all the stuff the general public actually sees and what a browser renders.
 
 ---
 

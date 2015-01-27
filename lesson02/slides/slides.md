@@ -12,7 +12,6 @@ Oooh, pretty colors and stuff like that.
 *	HTML Basics Review
 *	Images
 *	Intro To CSS
-	*	Link Tag
 	*	Colors
 	*	Fonts
 *	Linking To Other Pages
