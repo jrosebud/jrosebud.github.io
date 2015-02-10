@@ -67,6 +67,16 @@ Some grid frameworks come with Photoshop templates. Otherwise, you can figure ou
 
 ---
 
+##Design
+
+If you work with a designer, or you're nifty with Photoshop and want to mock up your design yourself, a great resource to check out is Photoshop Etiquette:
+
+http://photoshopetiquette.com
+
+This is a great resource for knowing how to properly set up a Photoshop document for web development, from properly setting up layers to how to set up your colors and backgrounds.
+
+---
+
 ##Grids and Frameworks
 
 There are lots of grid systems and frameworks out there. They can make your life easier as a coder. They can also help in the design process by giving a designer some proportions and specs to work with (which makes your life easier in the end).
@@ -77,8 +87,7 @@ There are lots of grid systems and frameworks out there. They can make your life
 
 This is a small sampling of frameworks/grids:
 
-* **1140 Grid** (www.cssgrid.net) - The author has retired it, but it's still in use. Comes with a handy Photoshop template. It's my personal favorite.
-* **Extra Strength Responsive Grids** (dfcb.github.io/extra-strength-responsive-grids/) - Another grid system that can actually be adjusted to whatever width you want.
+* **Extra Strength Responsive Grids** (dfcb.github.io/extra-strength-responsive-grids/) - A grid system that can actually be adjusted to whatever width you want. My personal favorite!
 * **960 Grid** (www.960.gs) - The original grid system. Also comes with a handy grid generator if you don't feel like using 960 pixels as a base.
 * **Twitter Bootstrap** (www.getbootstrap.com) - Super popular framework.
 
@@ -102,7 +111,7 @@ It's good to maintain a base folder for projects. That way, you could just dupli
 
 Some things to have in a starter folder:
 
-* an index.html file that already has the appropriate codes in it. (see sample on Schoology.)
+* an index.html file that already has the appropriate codes in it.
 * a stylesheet file.
 * an images folder
 
@@ -160,14 +169,17 @@ And please, ask questions if you get stuck. Google is a developer's best friend.
 
 Over time, many developers maintain their own personal libraries of code that they use over and over again. This is a good practice. If you find yourself looking up specific CSS rules (like how to make a gradient, for example), or use a lot of specific jQuery scripts (like a slideshow script), it's good to put these snippets somewhere.
 
-You can do something as simple as have a running text file, or you could set up snippets in your text editor, or you could use an online service, such as Snipplr.
+You can do something as simple as have a running text file, or you could set up snippets in your text editor, or you could use an online service, such as Snipplr (http://snipplr.com).
+
+---
+
+##Snippet Away
+
+If you want to get fancy with your snippets and store them in a separate program and sync between machines, or share snippets with a team, you could check out some of these programs:
+
+* GistBox (http://www.gistboxapp.com/)
+* Snippets (http://snippets.me/)
 
 ---
 
 #Go Forth and Create!
-
----
-
-
-![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
-##Startup Matchmaker

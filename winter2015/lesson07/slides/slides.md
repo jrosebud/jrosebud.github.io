@@ -38,11 +38,6 @@ Like with any language, there are formal rules around how to write it. This is t
 
 ---
 
-![GeneralAssemb.ly](../img/icons/code_along.png)
-##JS Basics
-
----
-
 
 ##Variables
 
@@ -114,12 +109,6 @@ The types of different values we support include:
 *	__String__ text
 *	__int__, __float__ numbers
 *	__Boolean__ true or false
-
----
-
-
-![GeneralAssemb.ly](../img/icons/code_along.png)
-##Score Keeper
 
 ---
 
@@ -336,5 +325,3 @@ if (day == "Tuesday"  || day == "Thursday"){
 
 ![GeneralAssemb.ly](../img/icons/exercise_icon_md.png)
 ##Temp Converter
-
----

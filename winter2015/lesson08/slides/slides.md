@@ -65,11 +65,6 @@ function reset() {
 
 ---
 
-![GeneralAssemb.ly](../img/icons/code_along.png)
-##Review: Make a Better Theme Switcher
-
----
-
 ##Passing Arguments
 
 Functions are a sophisticated type of container. Not only can you perform tasks with them, you can also pass *arguments* to a function so it can work with specific data.
@@ -112,7 +107,7 @@ In the previous example, the line 	```return c;``` simply holds the value of ```
 ---
 
 ![GeneralAssemb.ly](../img/icons/code_along.png)
-##Simple Math in Console & The Multiplier
+##The Multiplier
 
 ---
 

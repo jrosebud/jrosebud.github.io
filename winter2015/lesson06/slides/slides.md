@@ -55,10 +55,5 @@ Think of pseudo code as writing a program in plain English. Say I wanted to writ
 
 ---
 
-![GeneralAssemb.ly](../../img/icons/code_along.png)
-##Color Switcher
-
----
-
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
 ##Traffic Light
