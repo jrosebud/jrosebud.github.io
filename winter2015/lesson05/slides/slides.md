@@ -87,9 +87,9 @@ There are lots of grid systems and frameworks out there. They can make your life
 
 This is a small sampling of frameworks/grids:
 
-* **Extra Strength Responsive Grids** (dfcb.github.io/extra-strength-responsive-grids/) - A grid system that can actually be adjusted to whatever width you want. My personal favorite!
-* **960 Grid** (www.960.gs) - The original grid system. Also comes with a handy grid generator if you don't feel like using 960 pixels as a base.
-* **Twitter Bootstrap** (www.getbootstrap.com) - Super popular framework.
+* [**Extra Strength Responsive Grids**](http://dfcb.github.io/extra-strength-responsive-grids/) - A grid system that can actually be adjusted to whatever width you want. My personal favorite!
+* [**960 Grid**](http://www.960.gs) - The original grid system. Also comes with a handy grid generator if you don't feel like using 960 pixels as a base.
+* [**Twitter Bootstrap**](http://www.getbootstrap.com) - Super popular framework.
 
 ---
 
@@ -111,8 +111,8 @@ It's good to maintain a base folder for projects. That way, you could just dupli
 
 Some things to have in a starter folder:
 
-* an index.html file that already has the appropriate codes in it.
-* a stylesheet file.
+* an index.html file that already has the appropriate codes in it (like the doctype and stylesheet links)
+* a stylesheet file and CSS reset
 * an images folder
 
 ---
@@ -135,9 +135,9 @@ To remove many of these quirks, CSS resets were born. Old-school resets were qui
 
 ##HTML5 Boilerplate
 
-There are tons of resets and normalize stylesheets out there, but my personal favorite is the **HTML5 Boilerplate** - (http://html5boilerplate.com/)
+There are tons of resets and normalize stylesheets out there, but my personal favorite is [**Normalize.css**](https://necolas.github.io/normalize.css/), which is also packaged with [**HTML5 Boilerplate**](http://html5boilerplate.com/).
 
-This boilerplate actually comes with a bunch of other stuff, but look for the stylesheet, called normalize.css. You can call this as a separate stylesheet. Just make sure to call it first, then your regular stylesheet. You can also use the main.css stylesheet instead and put your styles in there.
+You can call normalize.css as a separate stylesheet. Just make sure to call it first, then your regular stylesheet. Remember, stylesheet order is important and you don't want the normalize to override **your** styles!
 
 ---
 
@@ -169,7 +169,7 @@ And please, ask questions if you get stuck. Google is a developer's best friend.
 
 Over time, many developers maintain their own personal libraries of code that they use over and over again. This is a good practice. If you find yourself looking up specific CSS rules (like how to make a gradient, for example), or use a lot of specific jQuery scripts (like a slideshow script), it's good to put these snippets somewhere.
 
-You can do something as simple as have a running text file, or you could set up snippets in your text editor, or you could use an online service, such as Snipplr (http://snipplr.com).
+You can do something as simple as have a running text file, or you could set up snippets in your text editor, or you could use an online service, such as [Snipplr](http://snipplr.com).
 
 ---
 
@@ -177,8 +177,8 @@ You can do something as simple as have a running text file, or you could set up 
 
 If you want to get fancy with your snippets and store them in a separate program and sync between machines, or share snippets with a team, you could check out some of these programs:
 
-* GistBox (http://www.gistboxapp.com/)
-* Snippets (http://snippets.me/)
+* [GistBox](http://www.gistboxapp.com/)
+* [Snippets](http://snippets.me/)
 
 ---
 
