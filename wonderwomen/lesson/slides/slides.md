@@ -2,16 +2,7 @@
 
 #HTML & CSS BASICS 
 
-```
-<p>Hello world!</p>
-```
-
----
-
-
-##Introductions
-
-<div align="center"><img src="img/drnick.jpg" width="500" /></div>
+```<p>Hello world!</p>```
 
 ---
 
@@ -33,11 +24,13 @@ If you'd like to refer to these slides later, you can find them at:
 
 ----
 
-###You must have a text editor of some variety for this workshop!
+##Text Editors
 
-If you don't, get Sublime Text at [http://www.sublimetext.com/](http://www.sublimetext.com/) (Mac only)
+Having a text editor is pretty important to coding. There are a couple of free ones out there:
 
-PC folks, you can get [Brackets](http://brackets.io/).
+You can get Sublime Text at [http://www.sublimetext.com/](http://www.sublimetext.com/) 
+
+Or there's [Brackets](http://brackets.io/).
 
 ---
 
@@ -56,6 +49,35 @@ PC folks, you can get [Brackets](http://brackets.io/).
 ![HTML Syntax](../../img/unit_1/tags_attributes.png)
 
 ---
+
+##Basic HTML Page Structure
+
+There are a few  tags you should be aware of and starting to use when you code your pages. There is a basic structure to HTML, and it goes something like this:
+
+`<!DOCTYPE html>`
+
+`<html>`
+
+`<head>`
+`</head>`
+
+`<body>`
+`</body>`
+
+`</html>`
+
+---
+
+##Basic HTML Page Structure
+
+In general, **all** your written HTML goes inside the `<html>` tags.
+
+The `<head>` tags are reserved for things that are important but don't necessarily render onto the page. The `<head>` is often where CSS stylesheets are linked, scripts get linked, and the `<title>` ... `</title>` tag resides, which puts a title in the tab or top bar of a browser window.
+
+The `<body>` tag is the body of your site ... in other words, it's where all the stuff the general public actually sees and what a browser renders.
+
+---
+
 
 ##Content Tags
 
@@ -103,8 +125,10 @@ In other words, a bulleted list. It looks like this:
 Unordered list item
 
 ```
+<ul>
 <li>First item</li>
 <li>Next item</li>
+</ul>
 ```
 
 
@@ -214,10 +238,6 @@ Reasons an image may not load:
 
 *	The file was not found, perhaps because the image got moved elsewhere and the page wasn't updated yet to reflect the change.
 
-*	The user is running a text-based browser such as an older phone with a WAP-style browser, or a non-graphical browser like lynx.
-
-*	The user is using a screen reader because she has low vision, which will read the `alt` text aloud or present it through a braille reader.
-
 ---
 
 ##HTML Basics - Images
@@ -259,45 +279,6 @@ No transparency, can be stored at different compression levels with varying amou
 
 ---
 
-##HTML5-Specific Tags
-
-As mentioned in a previous class, there are some tags that were introduced when HTML5 became the new web standard. Here are a few of them:
-
-`<header>` ... `<header>`
-
-`<footer>` ... `<footer>`
-
-`<section>` ... `<section>`
-
-`<article>` ... `<article>`
-
----
-
-##Basic HTML Page Structure
-
-There are a few other tags you should be aware of and starting to use when you code your pages. There is a basic structure to HTML, and it goes something like this:
-
-`<html>`
-
-`<head>`
-`</head>`
-
-`<body>`
-`</body>`
-
-`</html>`
-
----
-
-##Basic HTML Page Structure
-
-In general, **all** your written HTML goes inside the `<html>` tags.
-
-The `<head>` tags are reserved for things that are important but don't necessarily render onto the page. The `<head>` is often where CSS stylesheets are linked, scripts get linked, and the `<title>` ... `</title>` tag resides, which puts a title in the tab or top bar of a browser window.
-
-The `<body>` tag is the body of your site ... in other words, it's where all the stuff the general public actually sees and what a browser renders.
-
----
 
 ##CSS
 
@@ -520,3 +501,12 @@ You can also use Google Fonts:
 
 http://google.com/fonts
 
+---
+
+##Other Resources
+
+Want to learn more? Here are some helpful links:
+
+- HTML and CSS: A great reference book: http://htmlandcssbook.com
+- HTML tag cheat sheet: http://jrosebud.github.io/winter2015/files/html5-cheat-sheet.pdf
+- CSS reference: http://css-tricks.com/almanac
