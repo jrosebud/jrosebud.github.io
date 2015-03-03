@@ -10,7 +10,7 @@ A whirlwind review of jQuery.
 ##Best Practices
 
 - Put your jQuery scripts at the bottom of your page. This will help ensure the HTML document has time to load and your script will actually have something to target.
-- Wrap your functions and your jQuery in `$(document).ready(function{ your jQuery awesomeness in here });`
+- Wrap your functions and your jQuery in `$(document).ready(function{ //your jQuery awesomeness in here });`
 - **DON'T FORGET TO INCLUDE THE JQUERY LIBRARY IN THE `<head></head>` OF YOUR PAGE!** Remember, you can Google "Google jQuery script" and get the link from the Google Developer Library.
 
 ---
@@ -49,10 +49,27 @@ The syntax when using ```.css``` is:
 
 ##Useful jQuery Functions
 
+You can manipulate more than one CSS attribute using  ```.css```. The syntax looks like this:
+
+.css({ "attribute" : "value", "attribute" : "value" });
+
+Example:
+
+```
+$(".box").css({
+	"color" : "#333",
+	"background" : "#999"
+});
+```
+
+---
+
+##Useful jQuery Functions
+
 If you wanted to add an attribute to an element, you would use ```.attr```:
 
 ```
-$("li.menu").attr("class", "open");
+$(".menu a").attr("href", "http://www.google.com");
 ```
 
 The syntax when using ```.attr``` is:
@@ -273,9 +290,9 @@ These are two really nifty libraries that have a wide range of stuff you could u
 
 You ever see those fancy popup boxes that black out the background of a page? These are often used in photo galleries, but you see other uses for them. They are called modal windows. Modal yourself here:
 
+- **FancyBox:** http://fancyapps.com/
 - **Lightbox** (actually a JavaScript library, not jQuery): http://lokeshdhakar.com/projects/lightbox2/
 - **Colorbox:** http://www.jacklmoore.com/colorbox/
-- **FancyBox:** http://fancyapps.com/
 
 ---
 
@@ -306,9 +323,10 @@ Sometimes, you have multiple columns that you need to make sure are the same siz
 
 ##Fun With Grids
 
-Sometimes, you'll see a really cool grid layout where all the boxes aren't the same height or length, but everything fits nicely together like bricks. It makes for a nice collage effect. To achieve that, use Masonry:
+Sometimes, you'll see a really cool grid layout where all the boxes aren't the same height or length, but everything fits nicely together like bricks. It makes for a nice collage effect. To achieve that, use one of these:
 
 - **Masonry:** http://masonry.desandro.com/
+- **FreeWall:** http://vnjs.net/www/project/freewall/
 
 ---
 

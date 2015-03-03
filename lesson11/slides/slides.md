@@ -49,10 +49,27 @@ The syntax when using ```.css``` is:
 
 ##Useful jQuery Functions
 
+You can manipulate more than one CSS attribute using  ```.css```. The syntax looks like this:
+
+.css({ "attribute" : "value", "attribute" : "value" });
+
+Example:
+
+```
+$(".box").css({
+	"color" : "#333",
+	"background" : "#999"
+});
+```
+
+---
+
+##Useful jQuery Functions
+
 If you wanted to add an attribute to an element, you would use ```.attr```:
 
 ```
-$("li.menu").attr("class", "open");
+$(".menu a").attr("href", "http://www.google.com");
 ```
 
 The syntax when using ```.attr``` is:
@@ -273,9 +290,9 @@ These are two really nifty libraries that have a wide range of stuff you could u
 
 You ever see those fancy popup boxes that black out the background of a page? These are often used in photo galleries, but you see other uses for them. They are called modal windows. Modal yourself here:
 
+- **FancyBox:** http://fancyapps.com/
 - **Lightbox** (actually a JavaScript library, not jQuery): http://lokeshdhakar.com/projects/lightbox2/
 - **Colorbox:** http://www.jacklmoore.com/colorbox/
-- **FancyBox:** http://fancyapps.com/
 
 ---
 
