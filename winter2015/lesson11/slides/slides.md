@@ -330,6 +330,27 @@ Sometimes, you'll see a really cool grid layout where all the boxes aren't the s
 
 ---
 
+##Hamburger Drawers
+
+If you'd like to employ the ubiquitous hamburger navigation and use what's called a navigation drawer (comes in from the side), try this:
+
+- **BigSlide:** http://ascott1.github.io/bigSlide.js/
+
+---
+
+##Video-Related Things
+
+jQuery does some cool stuff with video. If you need your video to resize properly in a responsive design, use fitVids:
+
+- **FitVids:** http://fitvidsjs.com/
+
+If you'd like to use video as a background, check these out:
+
+- http://dfcb.github.io/BigVideo.js/
+- http://vodkabears.github.io/vide/
+
+---
+
 #...And So Much More!
 
 Remember, Google is your friend. Chances are, if you need something in jQuery, someone has created it. Most really good jQuery plugins come with documentation that should tell you how to implement and use the plugin. So have fun (but don't go overboard)!
