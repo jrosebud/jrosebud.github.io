@@ -101,7 +101,7 @@ Hides characters as typed
 
 ##Submit vs File vs Button
 
-*	Value is button text. Defaults to submit in chrome, submit query in IE ```<input type="submit" value="Submit">```
+*	Value is the button text. ```<input type="submit" value="Submit">```
 
 
 *	Creates a file upload element ```<input type="file">```
@@ -142,7 +142,7 @@ Clicking the label text in either case places the focus in the input field (grea
 
 ##Styling
 
-*	Can't be styled directly
+*	Elements that can't be styled directly
 	*	Checkboxes, File upload inputs, Radio buttons
 
 <aside class="notes">
@@ -187,8 +187,3 @@ Two processors to look at:
 
 - **Wufoo:** http://www.wufoo.com
 - **JotForm:** http://www.jotform.com
-
----
-
-![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
-##GA Application Form
