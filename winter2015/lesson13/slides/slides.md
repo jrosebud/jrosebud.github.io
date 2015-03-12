@@ -11,7 +11,7 @@ Because at some point, someone's going to say "I don't want to pinch the damn sc
 
 *	Review
 *	Responsive Layouts
-*	REM/EM
+*	EM
 *	Media Queries
 
 ---
@@ -47,7 +47,6 @@ There are a few techniques used in responsive design:
 
 There are also many grid systems and frameworks out there that are built to be responsive. We have mentioned a few in class before:
 
-* 1140 Grid
 * 960 Grid
 * Extra Strength Responsive Grid
 * Twitter Bootstrap
@@ -64,35 +63,13 @@ Before you use a grid, it's best to try and code a responsive design yourself so
 
 ---
 
-##Fixed vs Responsive
-
-Checkout these __Fixed__ sites
-
-*	[UPS.com](http://www.ups.com)
-
-*	[Boston.com](http://www.boston.com)
-
----
-
-##Fixed vs Responsive
-
-Checkout these __Responsive__ Sites
-
-*	[Generalassemb.ly](http://www.generalassemb.ly)
-
-*	[Dwolla.com](http://www.dwolla.com)
-
-*	[Sweethatclub.com](http://www.sweethatclub.com)
-
----
-
 ##Fixed Layout
 
 *	Used up to this point
 
 *	Relies on a container of fixed width
 
-*	Usually 960px or 980px
+*	Usually 960px
 
 
 <aside class="notes">
@@ -162,8 +139,6 @@ http://pxtoem.com/
 @media only screen and
 (max-width: xPx)
 (min-width: xPx)
-(max-device-width:xPx)
-(min-device-width:xPx)
 
 For iPad
 (orientation: portrait)
@@ -182,14 +157,14 @@ Separate multiple clauses with "and"
 ##Mobile Display
 
 ```
-< meta name="viewport" content="width=device-width, initial-scale=1" >
+<meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
 Optional: user-scalable=none
 
 
-Why necessary?
-Mobile browser assumption of fixed layout of 980px
+Why is this necessary?
+Mobile browsers assume a fixed layout of 980px
 
 ---
 
@@ -224,8 +199,3 @@ Standard media queries sizes:
 	}
 } 
 ```
-
----
-
-![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
-##Responsive Boxes
