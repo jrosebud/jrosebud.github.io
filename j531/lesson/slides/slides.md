@@ -1,5 +1,3 @@
-![GeneralAssemb.ly](../img/icons/FEWD_Logo.png)
-
 #HTML & CSS BASICS 
 
 ```
