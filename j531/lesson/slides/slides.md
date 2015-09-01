@@ -2,7 +2,9 @@
 
 #HTML & CSS BASICS 
 
-```<p>Hello world!</p>```
+```
+<p>Hello world!</p>
+```
 
 ---
 
@@ -11,7 +13,7 @@
 
 If you'd like to refer to these slides later, you can find them at:
 
-**http://jrosebud.github.io/wonderwomen/lesson**
+**http://bit.ly/j531web**
 
 ---
 
