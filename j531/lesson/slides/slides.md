@@ -451,6 +451,90 @@ http://google.com/fonts
 
 ---
 
+##Divide and Conquer
+
+There are many tags you can use to section off your content. We've talked about a few of these already, such as ```header```, ```footer```, ```section```, ```article```. There are two other tags that you'll use a lot, maybe even more than those HTML5 tags:
+
+* div
+* span
+
+---
+
+##Block and inline elements
+
+Many tags are __block elements__ by default in HTML. Examples of these tags are: ```p```, ```ul```, ```div```, ```header```, ```footer```, ```article```, ```h1``` (and all the h tags). 
+
+Think of them as giant boxes. They are good containers. They also tend to occupy the entire width of your page by default (unless you tell it not to). This often means they sit on their own line and push everything else out of their way.
+
+---
+
+##Block and inline elements
+
+__Inline elements__ play nice with other content. They tend to sit within block elements. As the name implies, they sit in line with whatever surrounds them. Examples of inline elements are these tags: ```a```, ```img```, ```span```.
+
+---
+
+##Div vs. Span
+
+###Div
+
+* Divs are block elements. Think of them as divas (div = diva, get it?). 
+* Like all good divas, divs like to be on their own line and push everything out of the way. They occupy the stage alone. 
+
+---
+
+###Span
+
+* Spans are inline elements. They're helpful for when you want make something look different within a div (or any block element, for that matter), but you don't want that styled thing to sit on its own line. 
+
+---
+
+##Span example
+
+Say you had an h1 tag that had a specific style attached to it (like it was bold and the color blue). But maybe you want one word in your h1 tag to be a different color.
+
+If you used a div with a class attribute, it would force a line break in the word that was surrounded by the div tags. But using a span around that single word would keep it in line with all the other text while still allowing you to add a class attribute to it (and change the style of that single word).
+
+---
+
+##class & id
+
+With classes and ids we can target specific elements on a page, so we can manipulate it uniquely.
+
+Remember, you can add a class or an ID to any HTML tag. By doing this, you would "override" any CSS rules applied to that particular tag.
+
+---
+
+##class & id
+
+![](../../img/unit_1/tags_attributes.png)
+
+---
+
+##class & id
+
+###IDs are unique
+
+Usually, you add an ID to something going to be used only once in your entire HTML page. (Note: This becomes pretty important in JavaScript and dynamic programming.)
+
+
+###Classes are not unique
+
+Re-use classes all you like. If you have a CSS rule you'd like to apply to many elements, regardless of what tag it's applied to, use a class.
+
+---
+
+##class & id
+
+How to __select__ classes and ids in CSS
+
+```
+.className
+#idName
+```
+
+---
+
 ##Other Resources
 
 Want to learn more? Here are some helpful links:
