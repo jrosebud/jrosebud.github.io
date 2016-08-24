@@ -239,9 +239,7 @@ Relative Path
 ##HTML Basics - Images
 Full URL
 
-```
-<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/397/thumb_User-Experience-Sketching.jpg">
-```
+`<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/397/thumb_User-Experience-Sketching.jpg">`
 		
 If you do this, make sure that you have permission to use the image in this way. Even then, it is often better to host a copy of the same image, rather than link to another server, because it reduces dependency.
 
@@ -251,7 +249,7 @@ If you do this, make sure that you have permission to use the image in this way.
 
 ```alt``` attribute
 
-	<img src="puppy.jpg" alt="My cute puppy">
+`<img src="puppy.jpg" alt="My cute puppy">`
 	
 The `alt` attribute is for visually impaired people who have to browse the internet using a text reader. Since they can't see the photo, the text reader reads the alt text to them. Generally, put the description of the photo (for instance, "Company Logo") as the `alt` attribute.
 
