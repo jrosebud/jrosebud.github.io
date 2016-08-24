@@ -11,7 +11,13 @@
 
 If you'd like to refer to these slides later, you can find them at:
 
-**http://bit.ly/j531web**
+**http://jrosebud.github.io/j553**
+
+---
+
+##Intros
+
+![Dr. Nick](img/drnick.jpg)
 
 ---
 
