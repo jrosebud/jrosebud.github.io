@@ -1,8 +1,6 @@
 #HTML & CSS BASICS 
 
-```
-<p>Hello world!</p>
-```
+```<p>Hello world!</p>```
 
 ---
 
@@ -17,7 +15,19 @@ If you'd like to refer to these slides later, you can find them at:
 
 ##Intros
 
-![Dr. Nick](img/drnick.jpg)
+![Dr. Nick](../img/drnick.jpg)
+
+---
+
+##Your Prof
+
+Jenn de la Fuente
+
+jdelafue@usc.edu
+
+Office: ANN 204A, 2nd floor of the Media Center
+
+Hours by appointment only.
 
 ---
 
@@ -31,7 +41,7 @@ Or there's [Brackets](http://brackets.io/).
 
 ---
 
-##HTML Basics
+#HTML Basics
 
 ---
 
