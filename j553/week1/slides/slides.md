@@ -1,6 +1,8 @@
 #HTML & CSS BASICS 
 
-```<p>Hello world!</p>```
+```
+<p>Hello world!</p>
+```
 
 ---
 
@@ -15,7 +17,7 @@ If you'd like to refer to these slides later, you can find them at:
 
 ##Intros
 
-![Dr. Nick](../img/drnick.jpg)
+![Dr. Nick](img/drnick.jpg)
 
 ---
 
@@ -57,9 +59,35 @@ Or there's [Brackets](http://brackets.io/).
 
 ---
 
+##Organization Will Set You Free
+
+(So the adage goes.)
+
+In web development, organization **cannot** be overstressed. Always put your project in a folder. Put your images in a folder, put your scripts in a folder, put your CSS files in a folder. Here's a basic template structure you can use for instant website fodder:
+
+https://github.com/usc-annenberg-journalism/basic-web-tpl-2016
+
+---
+
+##Home Base
+
+Every site on the internet starts with a file called index. Sometimes it has a different ending extension, like index.php, index.asp, index.rb. For our purposes, ours will be index.html. 
+
+When you go to any URL, the browser is looking for that index file to display your home page. That's how it knows to phone home.
+
+Make sure your project folder has an index.html file!
+
+---
+
+##Folders in Folders (a.k.a Inception)
+
+![](../../img/unit_1/folder_structure.png)
+
+---
+
 ##Basic HTML Page Structure
 
-There are a few  tags you should be aware of and starting to use when you code your pages. There is a basic structure to HTML, and it goes something like this:
+There are a few tags you should be aware of and starting to use when you code your pages. There is a basic structure to HTML, and it goes something like this:
 
 ```
 <!DOCTYPE html>
@@ -74,6 +102,16 @@ There are a few  tags you should be aware of and starting to use when you code y
 
 </html>
 ```
+
+---
+
+##Basic HTML Page Structure
+
+"What is this DOCTYPE business?", you may ask.
+
+DOCTYPE simply lets a browser know we're using HTML5, the latest web standard. HTML5 allows for a few nifty things, like certain tags and some fancy form stuff you don't need to know right now.
+
+In the old days, this line used to be very long. Now it's just !DOCTYPE html. Nice and simple.
 
 ---
 
@@ -184,17 +222,7 @@ The `img` tag requires a `src` attribute, which tells the browser where to find 
 
 ##HTML Basics - Images
 
-How would you write the src?
-
-![](../../img/unit_1/folder_structure.png)
-
-*	There are different approaches to specifying an image location
-			
----
-
-##HTML Basics - Images
-
-*	Inside ```webroot```, a relative path could be used:
+*	Inside your root folder, a relative path could be used:
 	
 ####```<img src="images/logo.png">```
 
@@ -205,14 +233,6 @@ Relative Path
 	
 ![Parent Folder Structure](../../img/unit_1/folder_structure_parentDirectory.png)
 
-<aside class="notes">
-
-* Given this folder structure the same image would be ```<img src="../images/logo.png">```
-* 
-Note that ```..``` means to go up a directory, and can be used repeatedly: `../..` would go up two directories.
-</aside>
-
-
 ---
 
 
@@ -221,9 +241,7 @@ Full URL
 
 		<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/397/thumb_User-Experience-Sketching.jpg">
 		
-<aside class="notes">
-For linking to images, make sure that you have permission to use the image in this way. Even then, it is often better to host a copy of the same image, rather than link to another server, because it reduces dependency.
-</aside>
+If you do this, make sure that you have permission to use the image in this way. Even then, it is often better to host a copy of the same image, rather than link to another server, because it reduces dependency.
 
 ---
 
@@ -301,36 +319,12 @@ If HTML is the framework of a house, CSS is the paint and other things that make
 
 ---
 
-
 ##CSS
 
-Where does CSS go?
-
-* Inline
-* In the `head` tag
-* In a separate file
-
-
-<aside class="notes">
-CSS should go in a separate file. We're going to start by placing them in the head for convenience and to learn the syntax. We'll show inline styles at the end, just to demonstrate.
-</aside>
-
----
-
-##CSS
-
-Using a separate CSS file
-
-Its best practice to put CSS in its own file and link to it from the `<head>`.
+It's best practice to put CSS in its own file and link to it from the `<head>`.
 
 ```<link rel="stylesheet" href="style.css">```
 	
-<aside class="notes>
-"The `link` tag needs two attributes: `rel="stylesheet"` and an `href` attribute.
-
-The `href` attribute value works very similarly to linking to an image, or to another page.
-</aside>
-
 ---
 
 ##CSS Break Down
@@ -548,13 +542,3 @@ How to __select__ classes and ids in CSS
 .className
 #idName
 ```
-
----
-
-##Other Resources
-
-Want to learn more? Here are some helpful links:
-
-- HTML and CSS: A great reference book: http://htmlandcssbook.com
-- HTML tag cheat sheet: http://jrosebud.github.io/winter2015/files/html5-cheat-sheet.pdf
-- CSS reference: http://css-tricks.com/almanac
