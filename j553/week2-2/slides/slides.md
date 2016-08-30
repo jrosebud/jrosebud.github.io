@@ -138,11 +138,9 @@ http://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/
 
 ---
 
----
-
 ##Floats
 
-Float is a CSS positioning property, used to lay out a web page. 
+Float is a CSS property used to lay out a web page. 
 
 ![](http://css-tricks.com/wp-content/csstricks-uploads/web-layout.png)
 
