@@ -47,7 +47,7 @@ The dollar sign tells you there's some jQuery coming. jQuery statements start wi
 
 ##jQuery Basics
 
-![GeneralAssemb.ly](../../img/jquery.png)
+![GeneralAssemb.ly](../img/jquery.png)
 
 ---
 
@@ -62,19 +62,6 @@ $(".class").click();
 $("#id").toggle();
 $("p").show();
 ```
----
-
-
-##jQuery
-
-When you use jQuery on a page, you usually don't want the script to trigger until the DOM is ready. You'll often see a script wrapped in this function:
-
-```
-$(document).ready(function() {
-    // put some jQuery here
-});
-```
-
 ---
 
 ##jQuery
