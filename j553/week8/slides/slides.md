@@ -29,7 +29,9 @@ Many slideshows, carousels, motion, animations, and general "cool stuff" you can
 
 You could download the jQuery file from jquery.com and add it like any other script:
 
-```<script src="js/jquery.js"></script> ```
+```
+<script src="js/jquery.js"></script>
+```
 
 The templates you will work with in this class have jQuery already loaded in the js folder. You just have to call it in the html file, like you would with a stylesheet!
 
@@ -45,7 +47,7 @@ The dollar sign tells you there's some jQuery coming. jQuery statements start wi
 
 ##jQuery Basics
 
-![GeneralAssemb.ly](../img/jquery.png)
+![GeneralAssemb.ly](../../img/jquery.png)
 
 ---
 
