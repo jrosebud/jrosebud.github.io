@@ -27,10 +27,10 @@ Many slideshows, carousels, motion, animations, and general "cool stuff" you can
 
 ##How to Add jQuery to Your Site
 
-You could download the jQuery file from jquery.com and add it like any other script:
+You could download the jQuery file from jquery.com and add it like any other script into your html file:
 
 ```
-<script src="js/jquery.js"></script>
+< script src="js/jquery.js" >< /script >
 ```
 
 The templates you will work with in this class have jQuery already loaded in the js folder. You just have to call it in the html file, like you would with a stylesheet!
