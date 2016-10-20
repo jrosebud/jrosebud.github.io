@@ -6,7 +6,7 @@ Because sometimes (OK, lots of times) things break and you need to fix them!
 
 ##Debugging
 
-In any coding situation, things may go awry -- misspellings, missed punctuation, hanging chads (unclosed tags), etc. Learning to spot and fix these problems is important in any kind of web development.
+In any coding situation, things may go awry - misspellings, missed punctuation, hanging chads (unclosed tags), etc. Learning to spot and fix these problems is important in any kind of web development.
 
 In jQuery/JavaScript, debugging becomes even more important because the problems don't show themselves right away. Sometimes things just don't work without obvious flags. You need to learn to spot this.
 
