@@ -22,7 +22,7 @@ If you can't see what's wrong, how do you fix it? The answer lies in the **conso
 
 In Chrome, you can access the console by right-clicking anywhere on your screen and selecting "Inspect" to bring up the inspector:
 
-![Inspect menu](../img/inspect.png)
+![Inspect menu](img/inspect.png)
 
 ---
 
@@ -30,7 +30,7 @@ In Chrome, you can access the console by right-clicking anywhere on your screen 
 
 Once you open up the inspector, it looks like this:
 
-![Inspect menu](../img/element.png)
+![Inspect menu](img/element.png)
 
 ---
 
@@ -38,7 +38,7 @@ Once you open up the inspector, it looks like this:
 
 Click "Console" in the top horizontal menu to get to the actual console, which looks like this:
 
-![GeneralAssemb.ly](../img/console.png)
+![GeneralAssemb.ly](img/console.png)
 
 ---
 
@@ -73,7 +73,7 @@ $('#button-id').click(function(){
 
 Here, I'm checking to see if clicking something with an id of "button-id" works. If it does, I should see a message in my console.
 
-![GeneralAssemb.ly](../img/log.png)
+![GeneralAssemb.ly](img/log.png)
 
 See how the thing I wrote in console.log shows in the console?
 
@@ -124,7 +124,7 @@ $('#button-id').click(function{
 
 If I look at my console, I'll see something like this:
 
-![console error](../img/error.png)
+![console error](img/error.png)
 
 ---
 
@@ -140,7 +140,7 @@ The more helpful one is the thing that says "Uncaught SyntaxError: Unexpected to
 
 The other great thing about those red lines is that it tells you where the error is. Look to the right of the error line and you'll notice "script.js:10". This means the error is in your script.js file on line 10. If you click that, it'll actually show you where the error is:
 
-![console error](../img/flagged-error.png)
+![console error](img/flagged-error.png)
 
 See the red X? It tells you the error is somewhere on that line, and the squiggly red line tells you the error is probably in that general vicinity. (In this case, we forgot the empty parentheses after function.)
 
@@ -170,7 +170,7 @@ In this case, I forgot the # for my id (button-id).
 
 If I look in my console, I won't see errors pop up:
 
-![no error](../img/no-error.png)
+![no error](img/no-error.png)
 
 I know something is wrong though, because I clicked my element and I didn't see my console.log message show in the console! D'oh!
 
