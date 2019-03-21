@@ -15,24 +15,6 @@ If you'd like to refer to these slides later, you can find them at:
 
 ---
 
-##Intros
-
-![Dr. Nick](img/drnick.jpg)
-
----
-
-##Your Prof
-
-Jenn de la Fuente
-
-jdelafue@usc.edu
-
-Office: ANN 204A, 2nd floor of the Media Center
-
-Hours by appointment only.
-
----
-
 ##Text Editors
 
 Having a text editor is pretty important to coding. There are a couple of free ones out there:
@@ -178,6 +160,17 @@ Unordered list item
 </ul>
 ```
 
+##Content Tags
+
+There are also ordered lists, which give you a numbered list by default (as opposed to a bulleted unordered list). They look exactly like unordered lists, except they use the `<ol>` tag instead:
+
+```
+<ol>
+<li>First item</li>
+<li>Next item</li>
+</ol>
+```
+
 
 --
 
@@ -185,11 +178,27 @@ Unordered list item
 
 Links
 
- ```<a href="Link">```First item```</a>```
+ ```<a href="https://google.com">```First item```</a>```
  
  If you want a link to open in a new window or tab, you add ```target="_blank"```.
  
- ```<a href="link" target="_blank">Item</a>```
+ ```<a href="https://google.com" target="_blank">Item</a>```
+
+
+--
+##Content Tags
+
+**Bold and italic**
+
+These work just like the `<a>` tag, you wrap them around your content.
+
+Bold uses the `<strong>` tag:
+
+ ```<strong>I'm bold!</strong>```
+ 
+Italic uses the `<em>` tag:
+ 
+ ```<em>I'm italic!</em>```
 
 
 --
