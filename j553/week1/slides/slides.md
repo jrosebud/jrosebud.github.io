@@ -25,22 +25,6 @@ Or there's [Brackets](http://brackets.io/).
 
 ---
 
-#HTML Basics
-
----
-
-##HTML Syntax
-
-![HTML Syntax](../../img/unit_1/tags.png)
-
----
-
-##HTML Syntax
-
-![HTML Syntax](../../img/unit_1/tags_attributes.png)
-
----
-
 ##Organization Will Set You Free
 
 (So the adage goes.)
@@ -62,6 +46,22 @@ Make sure your project folder has an index.html file!
 ##Folders in Folders (a.k.a Inception)
 
 ![](../../img/unit_1/folder_structure.png)
+
+---
+
+#HTML Basics
+
+---
+
+##HTML Syntax
+
+![HTML Syntax](../../img/unit_1/tags.png)
+
+---
+
+##HTML Syntax
+
+![HTML Syntax](../../img/unit_1/tags_attributes.png)
 
 ---
 
