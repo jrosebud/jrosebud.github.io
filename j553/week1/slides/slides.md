@@ -11,7 +11,7 @@
 
 If you'd like to refer to these slides later, you can find them at:
 
-**http://jrosebud.github.io/j553**
+**http://jrosebud.github.io/j553/week1**
 
 ---
 
@@ -45,9 +45,7 @@ Or there's [Brackets](http://brackets.io/).
 
 (So the adage goes.)
 
-In web development, organization **cannot** be overstressed. Always put your project in a folder. Put your images in a folder, put your scripts in a folder, put your CSS files in a folder. Here's a basic template structure you can use for instant website fodder:
-
-https://github.com/usc-annenberg-journalism/basic-web-tpl-2016
+In web development, organization **cannot** be overstressed. Always put your project in a folder. Put your images in a folder, put your scripts in a folder, put your CSS files in a folder. Bonus: If you keep a copy of this folder easily accessible, you can copy it and have instant website fodder!
 
 ---
 
@@ -159,6 +157,8 @@ Unordered list item
 <li>Next item</li>
 </ul>
 ```
+
+--
 
 ##Content Tags
 
