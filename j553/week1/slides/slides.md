@@ -43,12 +43,6 @@ Make sure your project folder has an index.html file!
 
 ---
 
-##Folders in Folders (a.k.a Inception)
-
-![](../../img/unit_1/folder_structure.png)
-
----
-
 #HTML Basics
 
 ---
