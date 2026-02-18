@@ -33,3 +33,4 @@
 /summer2014/lib/font/league_gothic_license filter=lfs diff=lfs merge=lfs -text
 /winter2015/LICENSE filter=lfs diff=lfs merge=lfs -text
 /winter2015/lib/font/league_gothic_license filter=lfs diff=lfs merge=lfs -text
+/j531/lib/font/league_gothic_license filter=lfs diff=lfs merge=lfs -text
