@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b46a16accbb6f9eb177c2f045eca262014a64087c02e907fe2fb4f8835c3b6b1
-size 269
+# FEWD Fall 2013 Saturdays - Los Angeles
+
+## Let's get FEWD-in. But we're coders, not fighters, really.
+
+This is a space for all the slides for the class taught by Jenn de la Fuente. Nothing more. Sorry if you expected something cooler because I'm just not *that* cool.

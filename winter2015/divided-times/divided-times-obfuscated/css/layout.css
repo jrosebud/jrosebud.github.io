@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cbbe4785e073817bd199524b3503a2e53aa2417e581f175bff2f94f0e913a599
-size 82
+#page-wrapper {
+	padding: 0 45px;
+	min-width: 45em;
+}
+
+#main {
+	padding: 0 25px;
+}

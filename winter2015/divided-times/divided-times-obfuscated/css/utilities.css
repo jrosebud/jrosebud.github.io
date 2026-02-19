@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4fe66a83ea0e64f44fd795da49bea8ecf5eccfb2137e00bc80567cc1463151ec
-size 198
+/* Clearfix - see http://nicolasgallagher.com/micro-clearfix-hack/ */
+.group:before,
+.group:after {
+    content: " ";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    *zoom: 1;
+}
