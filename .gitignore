@@ -34,7 +34,6 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-*.espressostorage
-
-*/posters.pdf
+*.espresso-storage
 *_gsdata_*
+pr486/files/posters.pdf
