@@ -1,3 +1,40 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4374a865124992ce02a0e5569696e8a5aaf68bc9d6d781b50affb2ccfa6225e6
-size 458
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+ 
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+ 
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+ 
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.espressostorage
+
+*/posters.pdf
+*_gsdata_*
