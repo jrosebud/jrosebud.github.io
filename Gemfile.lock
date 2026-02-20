@@ -81,6 +81,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  csv
   jekyll (~> 4.3)
 
 BUNDLED WITH
