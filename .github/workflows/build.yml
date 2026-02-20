@@ -55,20 +55,22 @@ jobs:
           fi
           echo "No LFS pointers in raw source assets."
 
-      # Build site
-      - name: Build
-        uses: actions/jekyll-build-pages@v1
-  
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      # Set up Ruby
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
 
-    deploy:
-        runs-on: ubuntu-latest
-        needs: build
-        steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      # Build site
+      - name: Build site
+        run: bundle exec jekyll build --trace
+
+      # Deploy to gh-pages
+      - name: Deploy to gh-pages
+        if: github.ref == 'refs/heads/master'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: $
+          publish_dir: ./_site
+          publish_branch: gh-pages
